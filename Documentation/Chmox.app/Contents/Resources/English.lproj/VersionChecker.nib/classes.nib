@@ -1,0 +1,17 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {changePreference = id; closeWindow = id; update = id; }; 
+            CLASS = CHMVersionChecker; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                checkAutomaticallyButton = NSButton; 
+                updateDescriptionTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = "java.lang.Object"; LANGUAGE = Java; }
+    ); 
+    IBVersion = 1; 
+}

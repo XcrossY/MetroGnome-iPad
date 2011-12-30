@@ -1,0 +1,3 @@
+/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/Classes/Models/Parts/MGPart.m: In function '-[MGPart getNote:]':
+/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/Classes/Models/Parts/MGPart.m:49: warning: conflicting types for '-(void *)getNote:(NSInteger)index'
+/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/Classes/Models/Parts/MGPart.h:21: warning: previous declaration of '-(MGNote *)getNote:(NSInteger)index'

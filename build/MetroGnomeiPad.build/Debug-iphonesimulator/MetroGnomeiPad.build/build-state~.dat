@@ -1,0 +1,778 @@
+TMetroGnomeiPad
+v7
+r0
+t338708507.444358
+cCheck dependencies
+cProcessInfoPlistFile /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/Info.plist MetroGnomeiPad-Info.plist
+cCompileXIB /Users/zander/git/MetroGnomeiPad/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/MetroGnomeiPad.app/ChoriumRevA.SF2 ../../../Zander/git/MetroGnomeiPad/SoundFonts/ChoriumRevA.SF2
+cProcessPCH /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-ayvanwzedufrqmdgtvlmeacvwgwv/MetroGnomeiPad_Prefix.pch.gch MetroGnomeiPad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/main.o /Users/zander/git/MetroGnomeiPad/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MetroGnomeiPadAppDelegate.o /Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGPlayer.o /Users/zander/git/MetroGnomeiPad/Classes/MGPlayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGInstrument.o /Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGSoundFont.o /Users/zander/git/MetroGnomeiPad/Classes/MGSoundFont.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad normal i386
+cGenerateDSYMFile /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app.dSYM /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad
+cTouch /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D54CF5D0000000000205F50
+t1297403741
+s2121552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004D54CF7C00000000001C41F0
+t1297403772
+s1851888
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004485F81C000000000000058C
+t1149630492
+s1420
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+c000000004D54D0CF0000000000063B70
+t1297404111
+s408432
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D54CF0700000000000689C0
+t1297403655
+s428480
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdio.h
+c000000004D4F6E9A0000000000004763
+t1297051290
+s18275
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Zander/Desktop/bass24-iphone (1)/bassflac/libbassflac.a
+c000000004D595E1A0000000000031014
+t1297702426
+s200724
+
+N/Users/Zander/Desktop/bass24-iphone (1)/bassmidi/libbassmidi.a
+c000000004E42FA520000000000035C04
+t1313012306
+s220164
+
+N/Users/Zander/Desktop/bass24-iphone/bassflac/libbassflac.a
+c000000004D595E1A0000000000031014
+t1297702426
+s200724
+
+N/Users/Zander/Desktop/bass24-iphone/bassmidi/libbassmidi.a
+c000000004E42FA520000000000035C04
+t1313012306
+s220164
+
+N/Users/Zander/git/MetroGnomeiPad/BASS/bass.h
+c000000004D6575CC0000000000009869
+t1298494924
+s39017
+i<wtypes.h>
+i<stdint.h>
+
+N/Users/Zander/git/MetroGnomeiPad/BASS/libbass.a
+c000000004E5D1AB200000000000BA0EC
+t1314724530
+s762092
+
+N/Users/Zander/git/MetroGnomeiPad/BASS/libbassmidi.a
+c000000004E42FA520000000000035C04
+t1313012306
+s220164
+
+N/Users/Zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.h
+c000000004E7AF5BC0000000000000159
+t1316681148
+s345
+i<UIKit/UIKit.h>
+
+N/Users/Zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m
+c000000004E7AF5BC00000000000006C8
+t1316681148
+s1736
+i"MetroGnomeiPadAppDelegate.h"
+
+N/Users/Zander/git/MetroGnomeiPad/MainWindow.xib
+c000000004E7AF5BC0000000000003E90
+t1316681148
+s16016
+
+N/Users/Zander/git/MetroGnomeiPad/MetroGnomeiPad_Prefix.pch
+c000000004E7AF5BC00000000000000C5
+t1316681148
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app
+t1316681548
+s204
+
+N/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app.dSYM
+t1316681548
+s102
+
+N/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/Info.plist
+t1316681153
+s826
+
+N/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MainWindow.nib
+t1316681154
+s1539
+
+N/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad
+t1316681548
+s15456
+
+N/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/PkgInfo
+t1316681153
+s8
+
+N/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MetroGnomeiPad.LinkFileList
+c000000004E7AF5C10000000000000119
+t1316681153
+s281
+
+N/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MetroGnomeiPadAppDelegate.o
+t1316681155
+s49208
+
+N/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/main.o
+t1316681155
+s6300
+
+N/Users/Zander/git/MetroGnomeiPad/libbass.a
+c000000004E5D1AB200000000000BA0EC
+t1314724530
+s762092
+
+N/Users/Zander/git/MetroGnomeiPad/main.m
+c000000004E7AF5BC000000000000016D
+t1316681148
+s365
+i<UIKit/UIKit.h>
+
+N/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/BASS/bass.h
+c000000004D6575CC0000000000009869
+t1298494924
+s39017
+i<wtypes.h>
+i<stdint.h>
+
+N/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/BASS/bassmidi.h
+c000000004DD3ED240000000000001FF3
+t1305734436
+s8179
+i"bass.h"
+
+N/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/SoundFonts/ChoriumRevA.SF2
+c00000000455209F20000000001B96318
+t1163004402
+s28926744
+
+N/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/bassmidi/libbassmidi.a
+c000000004E42FA520000000000035C04
+t1313012306
+s220164
+
+N/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/libbassmidi.a
+c000000004E42FA520000000000035C04
+t1313012306
+s220164
+
+N/Users/zander/git/MetroGnomeiPad/01 - Kyoto 05.11.76 - Part I.mp3
+c000000004C190B290000000005130000
+t1276709673
+s85131264
+
+N/Users/zander/git/MetroGnomeiPad/01 Contrapunctus I.m4a
+c000000004C190D8400000000002C0993
+t1276710276
+s2886035
+
+N/Users/zander/git/MetroGnomeiPad/01 Rachmaninov Piano Concerto No. 2 in C Minor, Op. 18, I. Moderato 1.aif
+c000000004C190D9B00000000074AA3A6
+t1276710299
+s122332070
+
+N/Users/zander/git/MetroGnomeiPad/01 fur alina, for piano.mp3
+c000000004BF0C09F00000000007E0D8F
+t1274069151
+s8261007
+
+N/Users/zander/git/MetroGnomeiPad/ChoriumTypeKeys.h
+c000000004E7E3A7C0000000000000098
+t1316895356
+s152
+
+N/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.h
+c000000004E80094F000000000000020C
+t1317013839
+s524
+i<Foundation/Foundation.h>
+i"MGSoundFont.h"
+
+N/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m
+c000000004E7E694400000000000006D2
+t1316907332
+s1746
+i"MGInstrument.h"
+i"bass.h"
+i"bassmidi.h"
+
+N/Users/zander/git/MetroGnomeiPad/Classes/MGPlayer.h
+c000000004E7DB83700000000000000DA
+t1316862007
+s218
+i<Foundation/Foundation.h>
+
+N/Users/zander/git/MetroGnomeiPad/Classes/MGPlayer.m
+c000000004E7DB83700000000000000C2
+t1316862007
+s194
+i"MGPlayer.h"
+
+N/Users/zander/git/MetroGnomeiPad/Classes/MGSoundFont.h
+c000000004E800DC500000000000002F3
+t1317014981
+s755
+i<Foundation/Foundation.h>
+i"bassmidi.h"
+
+N/Users/zander/git/MetroGnomeiPad/Classes/MGSoundFont.m
+c000000004E80108100000000000006E3
+t1317015681
+s1763
+i"MGSoundFont.h"
+
+N/Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.h
+c000000004E7AF5BC0000000000000159
+t1316681148
+s345
+i<UIKit/UIKit.h>
+
+N/Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m
+c000000004E80107300000000000007D1
+t1317015667
+s2001
+i"MetroGnomeiPadAppDelegate.h"
+i"bass.h"
+i"bassmidi.h"
+i"MGInstrument.h"
+i"MGSoundFont.h"
+
+N/Users/zander/git/MetroGnomeiPad/MainWindow.xib
+c000000004E7AF5BC0000000000003E90
+t1316681148
+s16016
+
+N/Users/zander/git/MetroGnomeiPad/MetroGnomeiPad_Prefix.pch
+c000000004E7AF5BC00000000000000C5
+t1316681148
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zander/git/MetroGnomeiPad/bass.h
+c000000004D6575CC0000000000009869
+t1298494924
+s39017
+i<wtypes.h>
+i<stdint.h>
+
+N/Users/zander/git/MetroGnomeiPad/bassmidi.h
+c000000004DD3ED240000000000001FF3
+t1305734436
+s8179
+i"bass.h"
+
+N/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app
+t1317015707
+s238
+
+N/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app.dSYM
+t1317015707
+s102
+
+N/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/01 - Kyoto 05.11.76 - Part I.mp3
+t1316757034
+s85131264
+
+N/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/01 Contrapunctus I.m4a
+t1316757410
+s2886035
+
+N/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/01 Rachmaninov Piano Concerto No. 2 in C Minor, Op. 18, I. Moderato 1.aif
+t1316757685
+s122332070
+
+N/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/01 fur alina, for piano.mp3
+t1316757572
+s8261007
+
+N/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/ChoriumRevA.SF2
+t1317015703
+s28926744
+
+N/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/Info.plist
+t1317015700
+s826
+
+N/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MainWindow.nib
+t1317015704
+s1539
+
+N/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad
+t1317015707
+s294808
+
+N/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/PkgInfo
+t1317015700
+s8
+
+N/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGInstrument.o
+t1317015707
+s9476
+
+N/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGPlayer.o
+t1317015707
+s5036
+
+N/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGSoundFont.o
+t1317015707
+s15884
+
+N/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MetroGnomeiPad.LinkFileList
+c000000004E80109400000000000002B2
+t1317015700
+s690
+
+N/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MetroGnomeiPadAppDelegate.o
+t1317015707
+s50304
+
+N/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/main.o
+t1317015707
+s6300
+
+N/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/synth.o
+t2
+s0
+
+N/Users/zander/git/MetroGnomeiPad/libbass.a
+c000000004E5D1AB200000000000BA0EC
+t1314724530
+s762092
+
+N/Users/zander/git/MetroGnomeiPad/libbassmidi.a
+c000000004E42FA520000000000035C04
+t1313012306
+s220164
+
+N/Users/zander/git/MetroGnomeiPad/main.m
+c000000004E7AF5BC000000000000016D
+t1316681148
+s365
+i<UIKit/UIKit.h>
+
+N/Users/zander/git/MetroGnomeiPad/synth.c
+c000000004DD3FCD00000000000002EFE
+t1305738448
+s12030
+i<Carbon/Carbon.h>
+i<stdio.h>
+i<math.h>
+i"bass.h"
+i"bassmidi.h"
+
+N/var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-abggtklwualctzcjrealvrkibmkl/MetroGnomeiPad_Prefix.pch.gch
+t1316681155
+s15814064
+
+N/var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-ayvanwzedufrqmdgtvlmeacvwgwv/MetroGnomeiPad_Prefix.pch.gch
+t1317015707
+s15814064
+
+N/var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-fzwbbgnezamuiwftowqxriauhhzk/MetroGnomeiPad_Prefix.pch.gch
+t1316912084
+s2142576
+
+NMetroGnomeiPad-Info.plist
+c000000004E7AF5BC00000000000004D6
+t1316681148
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338708500#338708500#0(0"0(0#1#0"8650007040#0"0#
+
+CCompileC build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGInstrument.o /Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338708507.189410
+e338708507.295702
+r1
+xCompileC
+xbuild/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGInstrument.o
+x/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m: In function '-[MGInstrument initWithSoundFont:instrumentType:]':
+o/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m:48: warning: unused variable 'stream'
+o/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m:41: warning: unused variable 'channel'
+o/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m: At top level:
+o/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m:69: warning: property 'instrumentType' requires method '-instrumentType' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m:69: warning: property 'instrumentType' requires the method 'setInstrumentType:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@63"Compile /Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m338708507#338708507#0(801"/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m: In function '-[MGInstrument initWithSoundFont:instrumentType:]':/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m:48: warning: unused variable 'stream'/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m:41: warning: unused variable 'channel'/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m: At top level:/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m:69: warning: property 'instrumentType' requires method '-instrumentType' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m:69: warning: property 'instrumentType' requires the method 'setInstrumentType:' to be defined - use @synthesize, @dynamic or provide a method implementation5(22@24"Unused variable 'stream'338708507#122#94#0(6@55"/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m338600132#48#0#48#0#19"unused variable '*'0(22@25"Unused variable 'channel'338708507#216#95#0(6@55"/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m338600132#41#0#41#0#19"unused variable '*'0(23@13"At top level:338708507#311#71#0(6@55"/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m338600132#0#0#0#0#0"0(22@136"Property 'instrumentType' requires method '-instrumentType' to be defined - use @synthesize, @dynamic or provide a method implementation338708507#382#206#0(6@55"/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m338600132#69#0#69#0#0"0(22@143"Property 'instrumentType' requires the method 'setInstrumentType:' to be defined - use @synthesize, @dynamic or provide a method implementation338708507#588#213#0(6@55"/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m338600132#69#0#69#0#0"0(0#0#55"/Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m8620058944#2102"    cd /Users/zander/git/MetroGnomeiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-generated-files.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-own-target-headers.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-all-target-headers.hmap -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-project-headers.hmap -F/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -I/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/include -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources/i386 -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources -include /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-ayvanwzedufrqmdgtvlmeacvwgwv/MetroGnomeiPad_Prefix.pch -c /Users/zander/git/MetroGnomeiPad/Classes/MGInstrument.m -o /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGInstrument.o0#
+
+CCompileC build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGPlayer.o /Users/zander/git/MetroGnomeiPad/Classes/MGPlayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338708507.172000
+e338708507.258415
+r1
+xCompileC
+xbuild/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGPlayer.o
+x/Users/zander/git/MetroGnomeiPad/Classes/MGPlayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/zander/git/MetroGnomeiPad/Classes/MGPlayer.m338708507#338708507#0(0"0(0#0#51"/Users/zander/git/MetroGnomeiPad/Classes/MGPlayer.m8645693312#2094"    cd /Users/zander/git/MetroGnomeiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-generated-files.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-own-target-headers.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-all-target-headers.hmap -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-project-headers.hmap -F/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -I/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/include -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources/i386 -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources -include /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-ayvanwzedufrqmdgtvlmeacvwgwv/MetroGnomeiPad_Prefix.pch -c /Users/zander/git/MetroGnomeiPad/Classes/MGPlayer.m -o /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGPlayer.o0#
+
+CCompileC build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGSoundFont.o /Users/zander/git/MetroGnomeiPad/Classes/MGSoundFont.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338708507.258516
+e338708507.336779
+r1
+xCompileC
+xbuild/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGSoundFont.o
+x/Users/zander/git/MetroGnomeiPad/Classes/MGSoundFont.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/zander/git/MetroGnomeiPad/Classes/MGSoundFont.m: In function '-[MGSoundFont initWithFileName:]':
+o/Users/zander/git/MetroGnomeiPad/Classes/MGSoundFont.m:40: warning: unused variable 'test'
+lSLF07#2@62"Compile /Users/zander/git/MetroGnomeiPad/Classes/MGSoundFont.m338708507#338708507#0(195"/Users/zander/git/MetroGnomeiPad/Classes/MGSoundFont.m: In function '-[MGSoundFont initWithFileName:]':/Users/zander/git/MetroGnomeiPad/Classes/MGSoundFont.m:40: warning: unused variable 'test'1(22@22"Unused variable 'test'338708507#104#91#0(6@54"/Users/zander/git/MetroGnomeiPad/Classes/MGSoundFont.m338708481#40#0#40#0#19"unused variable '*'0(0#0#54"/Users/zander/git/MetroGnomeiPad/Classes/MGSoundFont.m8650222144#2100"    cd /Users/zander/git/MetroGnomeiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-generated-files.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-own-target-headers.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-all-target-headers.hmap -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-project-headers.hmap -F/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -I/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/include -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources/i386 -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources -include /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-ayvanwzedufrqmdgtvlmeacvwgwv/MetroGnomeiPad_Prefix.pch -c /Users/zander/git/MetroGnomeiPad/Classes/MGSoundFont.m -o /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MGSoundFont.o0#
+
+CCompileC build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MetroGnomeiPadAppDelegate.o /Users/Zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338373955.535680
+e338373955.618359
+r1
+xCompileC
+xbuild/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MetroGnomeiPadAppDelegate.o
+x/Users/Zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m338373955#338373955#0(0"0(0#0#68"/Users/Zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m8605625984#2038"    cd /Users/Zander/git/MetroGnomeiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-generated-files.hmap -I/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-own-target-headers.hmap -I/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-all-target-headers.hmap -iquote /Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-project-headers.hmap -F/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -I/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/include -I/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources/i386 -I/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources -include /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-abggtklwualctzcjrealvrkibmkl/MetroGnomeiPad_Prefix.pch -c /Users/Zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m -o /Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MetroGnomeiPadAppDelegate.o0#
+
+CCompileC build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MetroGnomeiPadAppDelegate.o /Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338708507.083690
+e338708507.171663
+r1
+xCompileC
+xbuild/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MetroGnomeiPadAppDelegate.o
+x/Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m: In function '-[MetroGnomeiPadAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m:27: warning: unused variable 'testFont'
+lSLF07#2@76"Compile /Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m338708507#338708507#0(266"/Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m: In function '-[MetroGnomeiPadAppDelegate application:didFinishLaunchingWithOptions:]':/Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m:27: warning: unused variable 'testFont'1(22@26"Unused variable 'testFont'338708507#157#109#0(6@68"/Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m338708467#27#0#27#0#19"unused variable '*'0(0#0#68"/Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m8615045088#2128"    cd /Users/zander/git/MetroGnomeiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-generated-files.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-own-target-headers.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-all-target-headers.hmap -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-project-headers.hmap -F/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -I/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/include -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources/i386 -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources -include /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-ayvanwzedufrqmdgtvlmeacvwgwv/MetroGnomeiPad_Prefix.pch -c /Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m -o /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MetroGnomeiPadAppDelegate.o0#
+
+CCompileC build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/main.o /Users/Zander/git/MetroGnomeiPad/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338373955.534011
+e338373955.603067
+r1
+xCompileC
+xbuild/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/main.o
+x/Users/Zander/git/MetroGnomeiPad/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/Zander/git/MetroGnomeiPad/main.m338373955#338373955#0(0"0(0#0#39"/Users/Zander/git/MetroGnomeiPad/main.m8607276928#1988"    cd /Users/Zander/git/MetroGnomeiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-generated-files.hmap -I/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-own-target-headers.hmap -I/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-all-target-headers.hmap -iquote /Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-project-headers.hmap -F/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -I/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/include -I/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources/i386 -I/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources -include /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-abggtklwualctzcjrealvrkibmkl/MetroGnomeiPad_Prefix.pch -c /Users/Zander/git/MetroGnomeiPad/main.m -o /Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/main.o0#
+
+CCompileC build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/main.o /Users/zander/git/MetroGnomeiPad/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338708507.082059
+e338708507.189283
+r1
+xCompileC
+xbuild/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/main.o
+x/Users/zander/git/MetroGnomeiPad/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/zander/git/MetroGnomeiPad/main.m338708507#338708507#0(0"0(0#0#39"/Users/zander/git/MetroGnomeiPad/main.m8629222080#2078"    cd /Users/zander/git/MetroGnomeiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-generated-files.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-own-target-headers.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-all-target-headers.hmap -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-project-headers.hmap -F/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -I/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/include -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources/i386 -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources -include /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-ayvanwzedufrqmdgtvlmeacvwgwv/MetroGnomeiPad_Prefix.pch -c /Users/zander/git/MetroGnomeiPad/main.m -o /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/main.o0#
+
+CCompileC build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/synth.o /Users/zander/git/MetroGnomeiPad/synth.c normal i386 c com.apple.compilers.gcc.4_2
+s338604884.522052
+e338604889.259708
+r0
+xCompileC
+xbuild/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/synth.o
+x/Users/zander/git/MetroGnomeiPad/synth.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WebServicesCore.h:15,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:37,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h:20,
+o                 from /Users/zander/git/MetroGnomeiPad/synth.c:6:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSMethodInvocation.h:759: error: expected declaration specifiers or '...' before 'CFXMLTreeRef'
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSMethodInvocation.h:759: error: expected declaration specifiers or '...' before 'CFXMLTreeRef'
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WebServicesCore.h:19,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:37,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h:20,
+o                 from /Users/zander/git/MetroGnomeiPad/synth.c:6:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSProtocolHandler.h:486: error: expected declaration specifiers or '...' before 'CFXMLTreeRef'
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSProtocolHandler.h:486: error: expected declaration specifiers or '...' before 'CFXMLTreeRef'
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers/QD.h:42,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:30,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h:24,
+o                 from /Users/zander/git/MetroGnomeiPad/synth.c:6:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers/Quickdraw.h:8143: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'QDGetCGDirectDisplayID'
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Accessibility.h:13,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/HIServices.h:45,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:38,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h:24,
+o                 from /Users/zander/git/MetroGnomeiPad/synth.c:6:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/AXUIElement.h:65: error: expected declaration specifiers or '...' before 'CGCharCode'
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/AXUIElement.h:65: error: expected declaration specifiers or '...' before 'CGKeyCode'
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/CarbonEvents.h:40,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIView.h:24,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIToolbox.h:41,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h:29,
+o                 from /Users/zander/git/MetroGnomeiPad/synth.c:6:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/MacWindows.h:2985: error: expected declaration specifiers or '...' before 'CGWindowLevel'
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/MacWindows.h:3032: error: expected declaration specifiers or '...' before 'CGWindowLevel'
+o/Users/zander/git/MetroGnomeiPad/synth.c:26: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'keys'
+o/Users/zander/git/MetroGnomeiPad/synth.c: In function 'DrumsEventHandler':
+o/Users/zander/git/MetroGnomeiPad/synth.c:140: warning: control reaches end of non-void function
+o/Users/zander/git/MetroGnomeiPad/synth.c: In function 'KeyEventHandler':
+o/Users/zander/git/MetroGnomeiPad/synth.c:230: error: 'keys' undeclared (first use in this function)
+o/Users/zander/git/MetroGnomeiPad/synth.c:230: error: (Each undeclared identifier is reported only once
+o/Users/zander/git/MetroGnomeiPad/synth.c:230: error: for each function it appears in.)
+lSLF07#2@48"Compile /Users/zander/git/MetroGnomeiPad/synth.c338604884#338604889#0(6700"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WebServicesCore.h:15,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:37,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h:20,                 from /Users/zander/git/MetroGnomeiPad/synth.c:6:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSMethodInvocation.h:759: error: expected declaration specifiers or '...' before 'CFXMLTreeRef'/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSMethodInvocation.h:759: error: expected declaration specifiers or '...' before 'CFXMLTreeRef'In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WebServicesCore.h:19,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:37,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h:20,                 from /Users/zander/git/MetroGnomeiPad/synth.c:6:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSProtocolHandler.h:486: error: expected declaration specifiers or '...' before 'CFXMLTreeRef'/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSProtocolHandler.h:486: error: expected declaration specifiers or '...' before 'CFXMLTreeRef'In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers/QD.h:42,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:30,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h:24,                 from /Users/zander/git/MetroGnomeiPad/synth.c:6:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers/Quickdraw.h:8143: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'QDGetCGDirectDisplayID'In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Accessibility.h:13,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/HIServices.h:45,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:38,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h:24,                 from /Users/zander/git/MetroGnomeiPad/synth.c:6:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/AXUIElement.h:65: error: expected declaration specifiers or '...' before 'CGCharCode'/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/AXUIElement.h:65: error: expected declaration specifiers or '...' before 'CGKeyCode'In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/CarbonEvents.h:40,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIView.h:24,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIToolbox.h:41,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h:29,                 from /Users/zander/git/MetroGnomeiPad/synth.c:6:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/MacWindows.h:2985: error: expected declaration specifiers or '...' before 'CGWindowLevel'/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/MacWindows.h:3032: error: expected declaration specifiers or '...' before 'CGWindowLevel'/Users/zander/git/MetroGnomeiPad/synth.c:26: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'keys'/Users/zander/git/MetroGnomeiPad/synth.c: In function 'DrumsEventHandler':/Users/zander/git/MetroGnomeiPad/synth.c:140: warning: control reaches end of non-void function/Users/zander/git/MetroGnomeiPad/synth.c: In function 'KeyEventHandler':/Users/zander/git/MetroGnomeiPad/synth.c:230: error: 'keys' undeclared (first use in this function)/Users/zander/git/MetroGnomeiPad/synth.c:230: error: (Each undeclared identifier is reported only once/Users/zander/git/MetroGnomeiPad/synth.c:230: error: for each function it appears in.)12(4@62"Expected declaration specifiers or '...' before 'CFXMLTreeRef'338604887#640#274#5(7@62"In file included from /Users/zander/git/MetroGnomeiPad/synth.c338604887#18446744073709551615#0#0(6@40"/Users/zander/git/MetroGnomeiPad/synth.c327431248#6#0#6#0#0"0(7@165"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h338604887#18446744073709551615#0#0(6@143"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h171323292#20#0#20#0#0"0(7@177"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h338604887#18446744073709551615#0#0(6@155"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h171326184#37#0#37#0#0"0(7@217"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WebServicesCore.h338604887#18446744073709551615#0#0(6@195"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WebServicesCore.h171323698#15#0#15#0#0"0(13@264"Expected declaration specifiers or '...' before 'CFXMLTreeRef' in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSMethodInvocation.h338604887#18446744073709551615#0#0(6@198"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSMethodInvocation.h171323698#759#0#759#0#0"0(6@198"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSMethodInvocation.h171323698#759#0#759#0#19"expected * before *0(4@62"Expected declaration specifiers or '...' before 'CFXMLTreeRef'338604887#914#274#5(7@62"In file included from /Users/zander/git/MetroGnomeiPad/synth.c338604887#18446744073709551615#0#0(6@40"/Users/zander/git/MetroGnomeiPad/synth.c327431248#6#0#6#0#0"0(7@165"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h338604887#18446744073709551615#0#0(6@143"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h171323292#20#0#20#0#0"0(7@177"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h338604887#18446744073709551615#0#0(6@155"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h171326184#37#0#37#0#0"0(7@217"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WebServicesCore.h338604887#18446744073709551615#0#0(6@195"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WebServicesCore.h171323698#15#0#15#0#0"0(13@264"Expected declaration specifiers or '...' before 'CFXMLTreeRef' in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSMethodInvocation.h338604887#18446744073709551615#0#0(6@198"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSMethodInvocation.h171323698#759#0#759#0#0"0(6@198"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSMethodInvocation.h171323698#759#0#759#0#19"expected * before *0(4@62"Expected declaration specifiers or '...' before 'CFXMLTreeRef'338604887#1828#273#5(7@62"In file included from /Users/zander/git/MetroGnomeiPad/synth.c338604887#18446744073709551615#0#0(6@40"/Users/zander/git/MetroGnomeiPad/synth.c327431248#6#0#6#0#0"0(7@165"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h338604887#18446744073709551615#0#0(6@143"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h171323292#20#0#20#0#0"0(7@177"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h338604887#18446744073709551615#0#0(6@155"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h171326184#37#0#37#0#0"0(7@217"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WebServicesCore.h338604887#18446744073709551615#0#0(6@195"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WebServicesCore.h171323698#19#0#19#0#0"0(13@263"Expected declaration specifiers or '...' before 'CFXMLTreeRef' in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSProtocolHandler.h338604887#18446744073709551615#0#0(6@197"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSProtocolHandler.h171323698#486#0#486#0#0"0(6@197"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSProtocolHandler.h171323698#486#0#486#0#19"expected * before *0(4@62"Expected declaration specifiers or '...' before 'CFXMLTreeRef'338604887#2101#273#5(7@62"In file included from /Users/zander/git/MetroGnomeiPad/synth.c338604887#18446744073709551615#0#0(6@40"/Users/zander/git/MetroGnomeiPad/synth.c327431248#6#0#6#0#0"0(7@165"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h338604887#18446744073709551615#0#0(6@143"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h171323292#20#0#20#0#0"0(7@177"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h338604887#18446744073709551615#0#0(6@155"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h171326184#37#0#37#0#0"0(7@217"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WebServicesCore.h338604887#18446744073709551615#0#0(6@195"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WebServicesCore.h171323698#19#0#19#0#0"0(13@263"Expected declaration specifiers or '...' before 'CFXMLTreeRef' in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSProtocolHandler.h338604887#18446744073709551615#0#0(6@197"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSProtocolHandler.h171323698#486#0#486#0#0"0(6@197"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/WebServicesCore.framework/Headers/WSProtocolHandler.h171323698#486#0#486#0#19"expected * before *0(4@80"Expected '=', ',', ';', 'asm' or '__attribute__' before 'QDGetCGDirectDisplayID'338604888#3009#278#5(7@62"In file included from /Users/zander/git/MetroGnomeiPad/synth.c338604888#18446744073709551615#0#0(6@40"/Users/zander/git/MetroGnomeiPad/synth.c327431248#6#0#6#0#0"0(7@165"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h338604888#18446744073709551615#0#0(6@143"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h171323292#24#0#24#0#0"0(7@191"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h338604888#18446744073709551615#0#0(6@169"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h171325384#30#0#30#0#0"0(7@198"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers/QD.h338604888#18446744073709551615#0#0(6@176"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers/QD.h171325384#42#0#42#0#0"0(13@267"Expected '=', ',', ';', 'asm' or '__attribute__' before 'QDGetCGDirectDisplayID' in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers/Quickdraw.h338604888#18446744073709551615#0#0(6@183"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers/Quickdraw.h171325384#8143#0#8143#0#0"0(6@183"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers/Quickdraw.h171325384#8143#0#8143#0#19"expected * before *0(4@60"Expected declaration specifiers or '...' before 'CGCharCode'338604888#4160#266#6(7@62"In file included from /Users/zander/git/MetroGnomeiPad/synth.c338604888#18446744073709551615#0#0(6@40"/Users/zander/git/MetroGnomeiPad/synth.c327431248#6#0#6#0#0"0(7@165"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h338604888#18446744073709551615#0#0(6@143"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h171323292#24#0#24#0#0"0(7@191"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h338604888#18446744073709551615#0#0(6@169"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h171325384#38#0#38#0#0"0(7@214"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/HIServices.h338604888#18446744073709551615#0#0(6@192"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/HIServices.h171325384#45#0#45#0#0"0(7@217"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Accessibility.h338604888#18446744073709551615#0#0(6@195"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Accessibility.h171325384#13#0#13#0#0"0(13@257"Expected declaration specifiers or '...' before 'CGCharCode' in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/AXUIElement.h338604888#18446744073709551615#0#0(6@193"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/AXUIElement.h171325384#65#0#65#0#0"0(6@193"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/AXUIElement.h171325384#65#0#65#0#19"expected * before *0(4@59"Expected declaration specifiers or '...' before 'CGKeyCode'338604888#4426#265#6(7@62"In file included from /Users/zander/git/MetroGnomeiPad/synth.c338604888#18446744073709551615#0#0(6@40"/Users/zander/git/MetroGnomeiPad/synth.c327431248#6#0#6#0#0"0(7@165"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h338604888#18446744073709551615#0#0(6@143"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h171323292#24#0#24#0#0"0(7@191"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h338604888#18446744073709551615#0#0(6@169"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h171325384#38#0#38#0#0"0(7@214"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/HIServices.h338604888#18446744073709551615#0#0(6@192"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/HIServices.h171325384#45#0#45#0#0"0(7@217"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Accessibility.h338604888#18446744073709551615#0#0(6@195"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Accessibility.h171325384#13#0#13#0#0"0(13@256"Expected declaration specifiers or '...' before 'CGKeyCode' in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/AXUIElement.h338604888#18446744073709551615#0#0(6@193"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/AXUIElement.h171325384#65#0#65#0#0"0(6@193"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/AXUIElement.h171325384#65#0#65#0#19"expected * before *0(4@63"Expected declaration specifiers or '...' before 'CGWindowLevel'338604888#5539#256#6(7@62"In file included from /Users/zander/git/MetroGnomeiPad/synth.c338604888#18446744073709551615#0#0(6@40"/Users/zander/git/MetroGnomeiPad/synth.c327431248#6#0#6#0#0"0(7@165"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h338604888#18446744073709551615#0#0(6@143"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h171323292#29#0#29#0#0"0(7@199"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIToolbox.h338604888#18446744073709551615#0#0(6@177"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIToolbox.h171323292#41#0#41#0#0"0(7@196"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIView.h338604888#18446744073709551615#0#0(6@174"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIView.h171323292#24#0#24#0#0"0(7@202"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/CarbonEvents.h338604888#18446744073709551615#0#0(6@180"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/CarbonEvents.h171323292#40#0#40#0#0"0(13@245"Expected declaration specifiers or '...' before 'CGWindowLevel' in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/MacWindows.h338604888#18446744073709551615#0#0(6@178"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/MacWindows.h171323292#2985#0#2985#0#0"0(6@178"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/MacWindows.h171323292#2985#0#2985#0#19"expected * before *0(4@63"Expected declaration specifiers or '...' before 'CGWindowLevel'338604888#5795#256#6(7@62"In file included from /Users/zander/git/MetroGnomeiPad/synth.c338604888#18446744073709551615#0#0(6@40"/Users/zander/git/MetroGnomeiPad/synth.c327431248#6#0#6#0#0"0(7@165"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h338604888#18446744073709551615#0#0(6@143"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h171323292#29#0#29#0#0"0(7@199"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIToolbox.h338604888#18446744073709551615#0#0(6@177"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIToolbox.h171323292#41#0#41#0#0"0(7@196"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIView.h338604888#18446744073709551615#0#0(6@174"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIView.h171323292#24#0#24#0#0"0(7@202"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/CarbonEvents.h338604888#18446744073709551615#0#0(6@180"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/CarbonEvents.h171323292#40#0#40#0#0"0(13@245"Expected declaration specifiers or '...' before 'CGWindowLevel' in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/MacWindows.h338604888#18446744073709551615#0#0(6@178"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/MacWindows.h171323292#3032#0#3032#0#0"0(6@178"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/MacWindows.h171323292#3032#0#3032#0#19"expected * before *0(4@62"Expected '=', ',', ';', 'asm' or '__attribute__' before 'keys'338604889#6051#115#0(6@40"/Users/zander/git/MetroGnomeiPad/synth.c327431248#26#0#26#0#19"expected * before *0(22@40"Control reaches end of non-void function338604889#6241#96#0(6@40"/Users/zander/git/MetroGnomeiPad/synth.c327431248#140#0#140#0#40"control reaches end of non-void function0(4@46"'keys' undeclared (first use in this function)338604889#6410#100#0(6@40"/Users/zander/git/MetroGnomeiPad/synth.c327431248#230#0#230#0#43"'*' undeclared (first use in this function)0(0#0#40"/Users/zander/git/MetroGnomeiPad/synth.c8643868928#2026"    cd /Users/zander/git/MetroGnomeiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-generated-files.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-own-target-headers.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-all-target-headers.hmap -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-project-headers.hmap -F/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -I/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/include -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources/i386 -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources -include /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-fzwbbgnezamuiwftowqxriauhhzk/MetroGnomeiPad_Prefix.pch -c /Users/zander/git/MetroGnomeiPad/synth.c -o /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/synth.o1#
+
+CCompileXIB /Users/Zander/git/MetroGnomeiPad/MainWindow.xib
+s338373953.678474
+e338373954.150310
+r1
+xCompileXIB
+x/Users/Zander/git/MetroGnomeiPad/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib338373953#338373954#0(0"0(0#0#47"/Users/Zander/git/MetroGnomeiPad/MainWindow.xib8608960416#559"    cd /Users/Zander/git/MetroGnomeiPad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MainWindow.nib /Users/Zander/git/MetroGnomeiPad/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/zander/git/MetroGnomeiPad/MainWindow.xib
+s338708500.206947
+e338708504.882883
+r1
+xCompileXIB
+x/Users/zander/git/MetroGnomeiPad/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib338708500#338708504#0(0"0(0#0#47"/Users/zander/git/MetroGnomeiPad/MainWindow.xib22518449115037804#649"    cd /Users/zander/git/MetroGnomeiPad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MainWindow.nib /Users/zander/git/MetroGnomeiPad/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource "build/Debug-iphonesimulator/MetroGnomeiPad.app/01 - Kyoto 05.11.76 - Part I.mp3" "01 - Kyoto 05.11.76 - Part I.mp3"
+s338449827.782135
+e338449834.091882
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MetroGnomeiPad.app/01 - Kyoto 05.11.76 - Part I.mp3
+x01 - Kyoto 05.11.76 - Part I.mp3
+lSLF07#2@37"Copy 01 - Kyoto 05.11.76 - Part I.mp3338449827#338449834#0(0"0(0#0#65"/Users/zander/git/MetroGnomeiPad/01 - Kyoto 05.11.76 - Part I.mp38616029024#571"    cd /Users/zander/git/MetroGnomeiPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/zander/git/MetroGnomeiPad/01 - Kyoto 05.11.76 - Part I.mp3" /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app0#
+
+CCpResource "build/Debug-iphonesimulator/MetroGnomeiPad.app/01 Contrapunctus I.m4a" "01 Contrapunctus I.m4a"
+s338450210.786649
+e338450210.848884
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MetroGnomeiPad.app/01 Contrapunctus I.m4a
+x01 Contrapunctus I.m4a
+lSLF07#2@27"Copy 01 Contrapunctus I.m4a338450210#338450210#0(0"0(0#0#55"/Users/zander/git/MetroGnomeiPad/01 Contrapunctus I.m4a8616024256#561"    cd /Users/zander/git/MetroGnomeiPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/zander/git/MetroGnomeiPad/01 Contrapunctus I.m4a" /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app0#
+
+CCpResource "build/Debug-iphonesimulator/MetroGnomeiPad.app/01 Rachmaninov Piano Concerto No. 2 in C Minor, Op. 18, I. Moderato 1.aif" "01 Rachmaninov Piano Concerto No. 2 in C Minor, Op. 18, I. Moderato 1.aif"
+s338450477.587913
+e338450485.053849
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MetroGnomeiPad.app/01 Rachmaninov Piano Concerto No. 2 in C Minor, Op. 18, I. Moderato 1.aif
+x01 Rachmaninov Piano Concerto No. 2 in C Minor, Op. 18, I. Moderato 1.aif
+lSLF07#2@78"Copy 01 Rachmaninov Piano Concerto No. 2 in C Minor, Op. 18, I. Moderato 1.aif338450477#338450485#0(0"0(0#0#106"/Users/zander/git/MetroGnomeiPad/01 Rachmaninov Piano Concerto No. 2 in C Minor, Op. 18, I. Moderato 1.aif8615687968#612"    cd /Users/zander/git/MetroGnomeiPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/zander/git/MetroGnomeiPad/01 Rachmaninov Piano Concerto No. 2 in C Minor, Op. 18, I. Moderato 1.aif" /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app0#
+
+CCpResource "build/Debug-iphonesimulator/MetroGnomeiPad.app/01 fur alina, for piano.mp3" "01 fur alina, for piano.mp3"
+s338450372.390156
+e338450372.638701
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MetroGnomeiPad.app/01 fur alina, for piano.mp3
+x01 fur alina, for piano.mp3
+lSLF07#2@32"Copy 01 fur alina, for piano.mp3338450372#338450372#0(0"0(0#0#60"/Users/zander/git/MetroGnomeiPad/01 fur alina, for piano.mp38615900128#566"    cd /Users/zander/git/MetroGnomeiPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/zander/git/MetroGnomeiPad/01 fur alina, for piano.mp3" /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app0#
+
+CCpResource build/Debug-iphonesimulator/MetroGnomeiPad.app/ChoriumRevA.SF2 ../../../Zander/git/MetroGnomeiPad/SoundFonts/ChoriumRevA.SF2
+s338708500.207818
+e338708503.634417
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MetroGnomeiPad.app/ChoriumRevA.SF2
+x../../../Zander/git/MetroGnomeiPad/SoundFonts/ChoriumRevA.SF2
+lSLF07#2@66"Copy ../../../Zander/git/MetroGnomeiPad/SoundFonts/ChoriumRevA.SF2338708500#338708503#0(0"0(0#0#94"/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/SoundFonts/ChoriumRevA.SF28655479168#598"    cd /Users/zander/git/MetroGnomeiPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/SoundFonts/ChoriumRevA.SF2 /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app0#
+
+CGenerateDSYMFile /Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app.dSYM /Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad
+s338374348.431240
+e338374348.502144
+r1
+xGenerateDSYMFile
+x/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app.dSYM
+x/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/MetroGnomeiPad.app.dSYM build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad338374348#338374348#0(0"0(0#0#94"/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad8609066784#386"    cd /Users/Zander/git/MetroGnomeiPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad -o /Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app.dSYM0#
+
+CGenerateDSYMFile /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app.dSYM /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad
+s338708507.424336
+e338708507.441136
+r1
+xGenerateDSYMFile
+x/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app.dSYM
+x/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/MetroGnomeiPad.app.dSYM build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad338708507#338708507#0(0"0(0#0#94"/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad8647409920#476"    cd /Users/zander/git/MetroGnomeiPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/usr/bin/dsymutil /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad -o /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app.dSYM0#
+
+CLd /Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad normal i386
+s338374348.222447
+e338374348.430963
+r1
+xLd
+x/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad
+xnormal
+xi386
+lSLF07#2@99"Link /Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad338374348#338374348#0(0"0(0#0#0"27303536605069420#1023"    cd /Users/Zander/git/MetroGnomeiPad    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -L/Users/Zander/git/MetroGnomeiPad -F/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -filelist /Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MetroGnomeiPad.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework CFNetwork -framework SystemConfiguration -lbass -o /Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad0#
+
+CLd /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad normal i386
+s338708507.336866
+e338708507.424236
+r1
+xLd
+x/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad
+xnormal
+xi386
+old: warning: directory '/Users/zander/git/MetroGnomeiPad/../../../Zander/Desktop/bass24-iphone/bassmidi' following -L not found
+old: warning: directory '/Users/zander/git/MetroGnomeiPad/../../../Zander/Desktop/bass24-iphone/bassflac' following -L not found
+old: warning: directory '/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/bassmidi' following -L not found
+lSLF07#2@99"Link /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad338708507#338708507#0(381"ld: warning: directory '/Users/zander/git/MetroGnomeiPad/../../../Zander/Desktop/bass24-iphone/bassmidi' following -L not foundld: warning: directory '/Users/zander/git/MetroGnomeiPad/../../../Zander/Desktop/bass24-iphone/bassflac' following -L not foundld: warning: directory '/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/bassmidi' following -L not found3(22@114"Directory '/Users/zander/git/MetroGnomeiPad/../../../Zander/Desktop/bass24-iphone/bassmidi' following -L not found338708507#0#128#0(6@0"338708507#0#0#0#0#0"0(22@114"Directory '/Users/zander/git/MetroGnomeiPad/../../../Zander/Desktop/bass24-iphone/bassflac' following -L not found338708507#128#128#0(6@0"338708507#0#0#0#0#0"0(22@111"Directory '/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/bassmidi' following -L not found338708507#256#125#0(6@0"338708507#0#0#0#0#0"0(0#0#0"8649928320#1708"    cd /Users/zander/git/MetroGnomeiPad    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -L/Users/zander/git/MetroGnomeiPad -L/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad -L/Users/zander/git/MetroGnomeiPad/../../../Zander/Desktop/bass24-iphone/bassmidi -L/Users/zander/git/MetroGnomeiPad/../../../Zander/Desktop/bass24-iphone/bassflac "-L/Users/zander/git/MetroGnomeiPad/../../../Zander/Desktop/bass24-iphone (1)/bassflac" "-L/Users/zander/git/MetroGnomeiPad/../../../Zander/Desktop/bass24-iphone (1)/bassmidi" -L/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/bassmidi -L/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/BASS -F/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -filelist /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/Objects-normal/i386/MetroGnomeiPad.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework CFNetwork -framework SystemConfiguration -framework CoreMIDI -lbass -lbassmidi -o /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/MetroGnomeiPad0#
+
+CProcessInfoPlistFile /Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/Info.plist MetroGnomeiPad-Info.plist
+s338373953.009271
+e338373953.678371
+r1
+xProcessInfoPlistFile
+x/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/Info.plist
+xMetroGnomeiPad-Info.plist
+lSLF07#2@33"Process MetroGnomeiPad-Info.plist338373953#338373953#0(0"0(0#0#58"/Users/Zander/git/MetroGnomeiPad/MetroGnomeiPad-Info.plist8607016800#482"    cd /Users/Zander/git/MetroGnomeiPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MetroGnomeiPad-Info.plist -genpkginfo /Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/Info.plist MetroGnomeiPad-Info.plist
+s338708500.119901
+e338708500.206820
+r1
+xProcessInfoPlistFile
+x/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/Info.plist
+xMetroGnomeiPad-Info.plist
+lSLF07#2@33"Process MetroGnomeiPad-Info.plist338708500#338708500#0(0"0(0#0#58"/Users/zander/git/MetroGnomeiPad/MetroGnomeiPad-Info.plist8646464512#572"    cd /Users/zander/git/MetroGnomeiPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    builtin-infoPlistUtility MetroGnomeiPad-Info.plist -genpkginfo /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app/Info.plist0#
+
+CProcessPCH /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-abggtklwualctzcjrealvrkibmkl/MetroGnomeiPad_Prefix.pch.gch MetroGnomeiPad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s338373954.150533
+e338373955.533751
+r1
+xProcessPCH
+x/var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-abggtklwualctzcjrealvrkibmkl/MetroGnomeiPad_Prefix.pch.gch
+xMetroGnomeiPad_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile MetroGnomeiPad_Prefix.pch338373954#338373955#0(0"0(0#0#58"/Users/Zander/git/MetroGnomeiPad/MetroGnomeiPad_Prefix.pch8609340192#1879"    cd /Users/Zander/git/MetroGnomeiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-generated-files.hmap -I/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-own-target-headers.hmap -I/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-all-target-headers.hmap -iquote /Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-project-headers.hmap -F/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -I/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/include -I/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources/i386 -I/Users/Zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources -c /Users/Zander/git/MetroGnomeiPad/MetroGnomeiPad_Prefix.pch -o /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-abggtklwualctzcjrealvrkibmkl/MetroGnomeiPad_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-ayvanwzedufrqmdgtvlmeacvwgwv/MetroGnomeiPad_Prefix.pch.gch MetroGnomeiPad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s338708504.883045
+e338708507.081795
+r1
+xProcessPCH
+x/var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-ayvanwzedufrqmdgtvlmeacvwgwv/MetroGnomeiPad_Prefix.pch.gch
+xMetroGnomeiPad_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile MetroGnomeiPad_Prefix.pch338708504#338708507#0(0"0(0#0#58"/Users/zander/git/MetroGnomeiPad/MetroGnomeiPad_Prefix.pch8648186976#1969"    cd /Users/zander/git/MetroGnomeiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-generated-files.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-own-target-headers.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-all-target-headers.hmap -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-project-headers.hmap -F/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -I/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/include -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources/i386 -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources -c /Users/zander/git/MetroGnomeiPad/MetroGnomeiPad_Prefix.pch -o /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-ayvanwzedufrqmdgtvlmeacvwgwv/MetroGnomeiPad_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-fzwbbgnezamuiwftowqxriauhhzk/MetroGnomeiPad_Prefix.pch.gch MetroGnomeiPad_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s338604883.934447
+e338604884.519468
+r1
+xProcessPCH
+x/var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-fzwbbgnezamuiwftowqxriauhhzk/MetroGnomeiPad_Prefix.pch.gch
+xMetroGnomeiPad_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile MetroGnomeiPad_Prefix.pch338604883#338604884#0(0"0(0#0#58"/Users/zander/git/MetroGnomeiPad/MetroGnomeiPad_Prefix.pch8645099776#1915"    cd /Users/zander/git/MetroGnomeiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-generated-files.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-own-target-headers.hmap -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-all-target-headers.hmap -iquote /Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/MetroGnomeiPad-project-headers.hmap -F/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator -I/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/include -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources/i386 -I/Users/zander/git/MetroGnomeiPad/build/MetroGnomeiPad.build/Debug-iphonesimulator/MetroGnomeiPad.build/DerivedSources -c /Users/zander/git/MetroGnomeiPad/MetroGnomeiPad_Prefix.pch -o /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MetroGnomeiPad_Prefix-fzwbbgnezamuiwftowqxriauhhzk/MetroGnomeiPad_Prefix.pch.gch0#
+
+CTouch /Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app
+s338374348.502322
+e338374348.506367
+r1
+xTouch
+x/Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app
+lSLF07#2@85"Touch /Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app338374348#338374348#0(0"0(0#0#0"8608740416#273"    cd /Users/Zander/git/MetroGnomeiPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app0#
+
+CTouch /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app
+s338708507.441229
+e338708507.444067
+r1
+xTouch
+x/Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app
+lSLF07#2@85"Touch /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app338708507#338708507#0(0"0(0#0#0"8647270592#363"    cd /Users/zander/git/MetroGnomeiPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/texbin:/usr/X11/bin"    /usr/bin/touch -c /Users/zander/git/MetroGnomeiPad/build/Debug-iphonesimulator/MetroGnomeiPad.app0#
+

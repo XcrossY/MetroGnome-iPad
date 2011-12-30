@@ -1,0 +1,6 @@
+/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/Classes/Models/Note/MGNote.m: In function '-[MGNote play:]':
+/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/Classes/Models/Note/MGNote.m:45: warning: 'MGNote' may not respond to '-noteOn:'
+/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/Classes/Models/Note/MGNote.m:45: warning: (Messages without a matching method signature
+/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/Classes/Models/Note/MGNote.m:45: warning: will be assumed to return 'id' and accept
+/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/Classes/Models/Note/MGNote.m:45: warning: '...' as arguments.)
+/Users/zander/git/MetroGnomeiPad/../../../Zander/git/MetroGnomeiPad/Classes/Models/Note/MGNote.m:47: warning: 'MGNote' may not respond to '-noteOff:'

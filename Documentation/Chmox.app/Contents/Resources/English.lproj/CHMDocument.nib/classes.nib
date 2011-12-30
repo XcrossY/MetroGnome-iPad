@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {CLASS = CHMDocument; LANGUAGE = ObjC; SUPERCLASS = NSDocument; }, 
+        {
+            ACTIONS = {displayTopic = id; }; 
+            CLASS = CHMWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_contentsView" = WebView; 
+                "_drawer" = NSDrawer; 
+                "_drawerView" = NSTabView; 
+                "_favoritesView" = NSTableView; 
+                "_tocView" = NSOutlineView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

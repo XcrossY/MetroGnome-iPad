@@ -1,0 +1,5 @@
+/Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m: In function '-[MetroGnomeiPadAppDelegate application:didFinishLaunchingWithOptions:]':
+/Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m:65: warning: 'MGMIDIController' may not respond to '-play:'
+/Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m:65: warning: (Messages without a matching method signature
+/Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m:65: warning: will be assumed to return 'id' and accept
+/Users/zander/git/MetroGnomeiPad/Classes/MetroGnomeiPadAppDelegate.m:65: warning: '...' as arguments.)

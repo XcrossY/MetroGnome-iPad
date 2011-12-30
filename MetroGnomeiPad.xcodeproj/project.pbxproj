@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MetroGnomeiPadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MetroGnomeiPadAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		C9551E86149EFE7600836A6D /* MGSheetMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9551E85149EFE7600836A6D /* MGSheetMusicView.m */; };
+		C9551E8A149F01F300836A6D /* MGSheetMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9551E89149F01F300836A6D /* MGSheetMusicViewController.m */; };
+		C968C8DA14932103005C1FD1 /* MGSoundFont.m in Sources */ = {isa = PBXBuildFile; fileRef = C968C8D914932103005C1FD1 /* MGSoundFont.m */; };
+		C98BDDFB14A13A4F00CB888F /* TrebleClefLogoBold.png in Resources */ = {isa = PBXBuildFile; fileRef = C98BDDFA14A13A4F00CB888F /* TrebleClefLogoBold.png */; };
+		C98BDE4C14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = C98BDE4B14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png */; };
+		C98BDE4F14A1A48000CB888F /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C98BDE4E14A1A48000CB888F /* Default-Portrait~ipad.png */; };
+		C9A3E5B614955C8100399DC4 /* libbass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEADEAB4142DED65000601D5 /* libbass.a */; };
+		C9A3E5B714955C8400399DC4 /* libbassmidi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEADEAB6142DED66000601D5 /* libbassmidi.a */; };
+		C9AC579514AC252700DA31CD /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AC579014AC252700DA31CD /* Array.m */; };
+		C9AC579614AC252700DA31CD /* MidiFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AC579214AC252700DA31CD /* MidiFile.m */; };
+		C9BDF7C5149D9DA20000D67A /* Chopin Ocean Etude.mid in Resources */ = {isa = PBXBuildFile; fileRef = C9BDF7C4149D9DA20000D67A /* Chopin Ocean Etude.mid */; };
+		C9D6328914A05897005A6CC1 /* SheetMusicPaper.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D6328814A05897005A6CC1 /* SheetMusicPaper.png */; };
+		C9D6329214A05E5E005A6CC1 /* MGScore.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D6329114A05E5E005A6CC1 /* MGScore.m */; };
+		C9D6329714A06B8B005A6CC1 /* MGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D6329614A06B8B005A6CC1 /* MGHomeViewController.m */; };
+		C9DCBF7C14AD6DFA00BE935C /* MGMidiFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DCBF7B14AD6DFA00BE935C /* MGMidiFile.m */; };
+		CE0865631449751100FB2CE3 /* MGRest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0865621449751100FB2CE3 /* MGRest.m */; };
+		CE08656B14497D9B00FB2CE3 /* MGTimeSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = CE08656A14497D9B00FB2CE3 /* MGTimeSignature.m */; };
+		CE0B16461435501F003BAD47 /* MGChord.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0B16451435501F003BAD47 /* MGChord.m */; };
+		CE1B68F9144010B400DACFC1 /* MGPart.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1B68F8144010B400DACFC1 /* MGPart.m */; };
+		CE1B69301440164300DACFC1 /* MGMIDIController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1B692F1440164300DACFC1 /* MGMIDIController.m */; };
+		CEADEA94142DED29000601D5 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEADEA93142DED29000601D5 /* CoreMIDI.framework */; };
+		CEADEADC142DF0FB000601D5 /* MGInstrument.m in Sources */ = {isa = PBXBuildFile; fileRef = CEADEADB142DF0FB000601D5 /* MGInstrument.m */; };
+		CEADEB4B142DF5B3000601D5 /* ChoriumRevA.SF2 in Resources */ = {isa = PBXBuildFile; fileRef = CEADEB4A142DF5B3000601D5 /* ChoriumRevA.SF2 */; };
+		CECE117F143359F00063EC3F /* MGLesson.m in Sources */ = {isa = PBXBuildFile; fileRef = CECE117E143359F00063EC3F /* MGLesson.m */; };
+		CECE12D01433E45C0063EC3F /* MGKeySignature.m in Sources */ = {isa = PBXBuildFile; fileRef = CECE12CF1433E45C0063EC3F /* MGKeySignature.m */; };
+		CECE12F31433E4F80063EC3F /* MGNote.m in Sources */ = {isa = PBXBuildFile; fileRef = CECE12F21433E4F80063EC3F /* MGNote.m */; };
+		CEF8541A142B2DEA00514F8E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF85419142B2DEA00514F8E /* AudioToolbox.framework */; };
+		CEF8541C142B2DEA00514F8E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF8541B142B2DEA00514F8E /* CFNetwork.framework */; };
+		CEF8541E142B2DEA00514F8E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF8541D142B2DEA00514F8E /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MetroGnomeiPadAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetroGnomeiPadAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MetroGnomeiPadAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetroGnomeiPadAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MetroGnomeiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroGnomeiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MetroGnomeiPad_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetroGnomeiPad_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MetroGnomeiPad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MetroGnomeiPad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C9551E84149EFE7600836A6D /* MGSheetMusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSheetMusicView.h; path = Views/MGSheetMusicView.h; sourceTree = "<group>"; };
+		C9551E85149EFE7600836A6D /* MGSheetMusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSheetMusicView.m; path = Views/MGSheetMusicView.m; sourceTree = "<group>"; };
+		C9551E88149F01F300836A6D /* MGSheetMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSheetMusicViewController.h; path = Controllers/MGSheetMusicViewController.h; sourceTree = "<group>"; };
+		C9551E89149F01F300836A6D /* MGSheetMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSheetMusicViewController.m; path = Controllers/MGSheetMusicViewController.m; sourceTree = "<group>"; };
+		C968C8D914932103005C1FD1 /* MGSoundFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSoundFont.m; path = Models/SoundFonts/MGSoundFont.m; sourceTree = "<group>"; };
+		C98BDDFA14A13A4F00CB888F /* TrebleClefLogoBold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrebleClefLogoBold.png; path = Resources/TrebleClefLogoBold.png; sourceTree = "<group>"; };
+		C98BDE4B14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SheetMusicPaperLogoPortrait.png; path = Resources/SheetMusicPaperLogoPortrait.png; sourceTree = "<group>"; };
+		C98BDE4E14A1A48000CB888F /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		C9AC578F14AC252700DA31CD /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Array.h; path = Vaidyanathan/Array.h; sourceTree = "<group>"; };
+		C9AC579014AC252700DA31CD /* Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Array.m; path = Vaidyanathan/Array.m; sourceTree = "<group>"; };
+		C9AC579114AC252700DA31CD /* MidiFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MidiFile.h; path = Vaidyanathan/MidiFile.h; sourceTree = "<group>"; };
+		C9AC579214AC252700DA31CD /* MidiFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MidiFile.m; path = Vaidyanathan/MidiFile.m; sourceTree = "<group>"; };
+		C9BDF7C4149D9DA20000D67A /* Chopin Ocean Etude.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = "Chopin Ocean Etude.mid"; path = "Resources/Chopin Ocean Etude.mid"; sourceTree = "<group>"; };
+		C9D6328814A05897005A6CC1 /* SheetMusicPaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SheetMusicPaper.png; path = Photoshop/SheetMusicPaper.png; sourceTree = "<group>"; };
+		C9D6329014A05E5E005A6CC1 /* MGScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGScore.h; path = Models/Scores/MGScore.h; sourceTree = "<group>"; };
+		C9D6329114A05E5E005A6CC1 /* MGScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGScore.m; path = Models/Scores/MGScore.m; sourceTree = "<group>"; };
+		C9D6329514A06B8B005A6CC1 /* MGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGHomeViewController.h; path = Controllers/HomeViewController/MGHomeViewController.h; sourceTree = "<group>"; };
+		C9D6329614A06B8B005A6CC1 /* MGHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGHomeViewController.m; path = Controllers/HomeViewController/MGHomeViewController.m; sourceTree = "<group>"; };
+		C9DCBF7A14AD6DFA00BE935C /* MGMidiFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGMidiFile.h; path = "Models/MIDI File/MGMidiFile.h"; sourceTree = "<group>"; };
+		C9DCBF7B14AD6DFA00BE935C /* MGMidiFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGMidiFile.m; path = "Models/MIDI File/MGMidiFile.m"; sourceTree = "<group>"; };
+		CE0865611449751100FB2CE3 /* MGRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGRest.h; path = Classes/Models/Note/Rests/MGRest.h; sourceTree = SOURCE_ROOT; };
+		CE0865621449751100FB2CE3 /* MGRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGRest.m; path = Classes/Models/Note/Rests/MGRest.m; sourceTree = SOURCE_ROOT; };
+		CE08656914497D9B00FB2CE3 /* MGTimeSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTimeSignature.h; path = "Classes/Models/Time Signature/MGTimeSignature.h"; sourceTree = SOURCE_ROOT; };
+		CE08656A14497D9B00FB2CE3 /* MGTimeSignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTimeSignature.m; path = "Classes/Models/Time Signature/MGTimeSignature.m"; sourceTree = SOURCE_ROOT; };
+		CE0B162814350979003BAD47 /* MIDIValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDIValues.h; path = "Other Sources/Constants/MIDIValues.h"; sourceTree = SOURCE_ROOT; };
+		CE0B16441435501F003BAD47 /* MGChord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGChord.h; path = Classes/Models/Chords/MGChord.h; sourceTree = SOURCE_ROOT; };
+		CE0B16451435501F003BAD47 /* MGChord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGChord.m; path = Classes/Models/Chords/MGChord.m; sourceTree = SOURCE_ROOT; };
+		CE1B68F7144010B400DACFC1 /* MGPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGPart.h; path = Classes/Models/Parts/MGPart.h; sourceTree = SOURCE_ROOT; };
+		CE1B68F8144010B400DACFC1 /* MGPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGPart.m; path = Classes/Models/Parts/MGPart.m; sourceTree = SOURCE_ROOT; };
+		CE1B692E1440164300DACFC1 /* MGMIDIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGMIDIController.h; path = Classes/Controllers/MIDIController/MGMIDIController.h; sourceTree = SOURCE_ROOT; };
+		CE1B692F1440164300DACFC1 /* MGMIDIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGMIDIController.m; path = Classes/Controllers/MIDIController/MGMIDIController.m; sourceTree = SOURCE_ROOT; };
+		CEADEA90142DED0D000601D5 /* bass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bass.h; path = BASS/bass.h; sourceTree = SOURCE_ROOT; };
+		CEADEA91142DED0D000601D5 /* bassmidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bassmidi.h; path = BASS/bassmidi.h; sourceTree = SOURCE_ROOT; };
+		CEADEA93142DED29000601D5 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		CEADEAB4142DED65000601D5 /* libbass.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbass.a; path = /Users/AlexanderPease/git/MetroGnomeiPad/BASS/libbass.a; sourceTree = "<absolute>"; };
+		CEADEAB6142DED66000601D5 /* libbassmidi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbassmidi.a; path = /Users/AlexanderPease/git/MetroGnomeiPad/BASS/libbassmidi.a; sourceTree = "<absolute>"; };
+		CEADEADA142DF0FB000601D5 /* MGInstrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGInstrument.h; path = Models/Instruments/MGInstrument.h; sourceTree = "<group>"; };
+		CEADEADB142DF0FB000601D5 /* MGInstrument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGInstrument.m; path = Models/Instruments/MGInstrument.m; sourceTree = "<group>"; };
+		CEADEB4A142DF5B3000601D5 /* ChoriumRevA.SF2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ChoriumRevA.SF2; path = SoundFonts/ChoriumRevA.SF2; sourceTree = SOURCE_ROOT; };
+		CEADEB91142E7263000601D5 /* MGSoundFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSoundFont.h; path = Models/SoundFonts/MGSoundFont.h; sourceTree = "<group>"; };
+		CECE117D143359F00063EC3F /* MGLesson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGLesson.h; path = Models/Lessons/MGLesson.h; sourceTree = "<group>"; };
+		CECE117E143359F00063EC3F /* MGLesson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGLesson.m; path = Models/Lessons/MGLesson.m; sourceTree = "<group>"; };
+		CECE12CE1433E45C0063EC3F /* MGKeySignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGKeySignature.h; path = "Classes/Models/Key Signature/MGKeySignature.h"; sourceTree = SOURCE_ROOT; };
+		CECE12CF1433E45C0063EC3F /* MGKeySignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGKeySignature.m; path = "Classes/Models/Key Signature/MGKeySignature.m"; sourceTree = SOURCE_ROOT; };
+		CECE12F11433E4F80063EC3F /* MGNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGNote.h; path = Classes/Models/Note/MGNote.h; sourceTree = SOURCE_ROOT; };
+		CECE12F21433E4F80063EC3F /* MGNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGNote.m; path = Classes/Models/Note/MGNote.m; sourceTree = SOURCE_ROOT; };
+		CEF85419142B2DEA00514F8E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CEF8541B142B2DEA00514F8E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CEF8541D142B2DEA00514F8E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				CEF8541A142B2DEA00514F8E /* AudioToolbox.framework in Frameworks */,
+				CEF8541C142B2DEA00514F8E /* CFNetwork.framework in Frameworks */,
+				CEF8541E142B2DEA00514F8E /* SystemConfiguration.framework in Frameworks */,
+				CEADEA94142DED29000601D5 /* CoreMIDI.framework in Frameworks */,
+				C9A3E5B614955C8100399DC4 /* libbass.a in Frameworks */,
+				C9A3E5B714955C8400399DC4 /* libbassmidi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CECE11771433587D0063EC3F /* Models */,
+				CECE1178143358860063EC3F /* Views */,
+				CECE11791433588C0063EC3F /* Controller */,
+				1D3623240D0F684500981E51 /* MetroGnomeiPadAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MetroGnomeiPadAppDelegate.m */,
+				CEADEADA142DF0FB000601D5 /* MGInstrument.h */,
+				CEADEADB142DF0FB000601D5 /* MGInstrument.m */,
+				CEADEB91142E7263000601D5 /* MGSoundFont.h */,
+				C968C8D914932103005C1FD1 /* MGSoundFont.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MetroGnomeiPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				C9AC578A14AC23F700DA31CD /* Vaidyanathan */,
+				CEADEA92142DED14000601D5 /* BASS */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE0B162714350912003BAD47 /* Constants */,
+				32CA4F630368D1EE00C91783 /* MetroGnomeiPad_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C98BDE4E14A1A48000CB888F /* Default-Portrait~ipad.png */,
+				C98BDE4B14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png */,
+				C98BDDFA14A13A4F00CB888F /* TrebleClefLogoBold.png */,
+				C9D6328814A05897005A6CC1 /* SheetMusicPaper.png */,
+				C9BDF7C4149D9DA20000D67A /* Chopin Ocean Etude.mid */,
+				CEADEB49142DF5A2000601D5 /* SoundFonts */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* MetroGnomeiPad-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				CEF85419142B2DEA00514F8E /* AudioToolbox.framework */,
+				CEF8541B142B2DEA00514F8E /* CFNetwork.framework */,
+				CEF8541D142B2DEA00514F8E /* SystemConfiguration.framework */,
+				CEADEA93142DED29000601D5 /* CoreMIDI.framework */,
+				CEADEAB4142DED65000601D5 /* libbass.a */,
+				CEADEAB6142DED66000601D5 /* libbassmidi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9AC578A14AC23F700DA31CD /* Vaidyanathan */ = {
+			isa = PBXGroup;
+			children = (
+				C9AC578F14AC252700DA31CD /* Array.h */,
+				C9AC579014AC252700DA31CD /* Array.m */,
+				C9AC579114AC252700DA31CD /* MidiFile.h */,
+				C9AC579214AC252700DA31CD /* MidiFile.m */,
+			);
+			name = Vaidyanathan;
+			sourceTree = "<group>";
+		};
+		C9D6329314A05E6E005A6CC1 /* Scores */ = {
+			isa = PBXGroup;
+			children = (
+				C9D6329014A05E5E005A6CC1 /* MGScore.h */,
+				C9D6329114A05E5E005A6CC1 /* MGScore.m */,
+			);
+			name = Scores;
+			sourceTree = "<group>";
+		};
+		C9D6329414A06B60005A6CC1 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9D6329514A06B8B005A6CC1 /* MGHomeViewController.h */,
+				C9D6329614A06B8B005A6CC1 /* MGHomeViewController.m */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		C9D6329814A06B91005A6CC1 /* MIDIController */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B692E1440164300DACFC1 /* MGMIDIController.h */,
+				CE1B692F1440164300DACFC1 /* MGMIDIController.m */,
+			);
+			name = MIDIController;
+			sourceTree = "<group>";
+		};
+		C9DCBF7914AD6DD700BE935C /* MIDI Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9DCBF7A14AD6DFA00BE935C /* MGMidiFile.h */,
+				C9DCBF7B14AD6DFA00BE935C /* MGMidiFile.m */,
+			);
+			name = "MIDI Files";
+			sourceTree = "<group>";
+		};
+		CE086560144974D600FB2CE3 /* Rests */ = {
+			isa = PBXGroup;
+			children = (
+				CE0865611449751100FB2CE3 /* MGRest.h */,
+				CE0865621449751100FB2CE3 /* MGRest.m */,
+			);
+			name = Rests;
+			sourceTree = "<group>";
+		};
+		CE08656814497D6700FB2CE3 /* Time Signature */ = {
+			isa = PBXGroup;
+			children = (
+				CE08656914497D9B00FB2CE3 /* MGTimeSignature.h */,
+				CE08656A14497D9B00FB2CE3 /* MGTimeSignature.m */,
+			);
+			name = "Time Signature";
+			sourceTree = "<group>";
+		};
+		CE0B162714350912003BAD47 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CE0B162814350979003BAD47 /* MIDIValues.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		CE0B164314354FFC003BAD47 /* Chords */ = {
+			isa = PBXGroup;
+			children = (
+				CE0B16441435501F003BAD47 /* MGChord.h */,
+				CE0B16451435501F003BAD47 /* MGChord.m */,
+			);
+			name = Chords;
+			sourceTree = "<group>";
+		};
+		CE1B68E71440100B00DACFC1 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B68F7144010B400DACFC1 /* MGPart.h */,
+				CE1B68F8144010B400DACFC1 /* MGPart.m */,
+			);
+			name = Parts;
+			sourceTree = "<group>";
+		};
+		CEADEA92142DED14000601D5 /* BASS */ = {
+			isa = PBXGroup;
+			children = (
+				CEADEA90142DED0D000601D5 /* bass.h */,
+				CEADEA91142DED0D000601D5 /* bassmidi.h */,
+			);
+			name = BASS;
+			sourceTree = "<group>";
+		};
+		CEADEB49142DF5A2000601D5 /* SoundFonts */ = {
+			isa = PBXGroup;
+			children = (
+				CEADEB4A142DF5B3000601D5 /* ChoriumRevA.SF2 */,
+			);
+			name = SoundFonts;
+			sourceTree = "<group>";
+		};
+		CECE11771433587D0063EC3F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9DCBF7914AD6DD700BE935C /* MIDI Files */,
+				C9D6329314A05E6E005A6CC1 /* Scores */,
+				CE1B68E71440100B00DACFC1 /* Parts */,
+				CE0B164314354FFC003BAD47 /* Chords */,
+				CECE12F01433E4DC0063EC3F /* Notes */,
+				CECE12CD1433E3C80063EC3F /* Key Signature */,
+				CE08656814497D6700FB2CE3 /* Time Signature */,
+				CECE12CC1433E3BC0063EC3F /* Lesson */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CECE1178143358860063EC3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C9551E84149EFE7600836A6D /* MGSheetMusicView.h */,
+				C9551E85149EFE7600836A6D /* MGSheetMusicView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CECE11791433588C0063EC3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C9D6329414A06B60005A6CC1 /* HomeViewController */,
+				C9D6329814A06B91005A6CC1 /* MIDIController */,
+				C9551E88149F01F300836A6D /* MGSheetMusicViewController.h */,
+				C9551E89149F01F300836A6D /* MGSheetMusicViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CECE12CC1433E3BC0063EC3F /* Lesson */ = {
+			isa = PBXGroup;
+			children = (
+				CECE117D143359F00063EC3F /* MGLesson.h */,
+				CECE117E143359F00063EC3F /* MGLesson.m */,
+			);
+			name = Lesson;
+			sourceTree = "<group>";
+		};
+		CECE12CD1433E3C80063EC3F /* Key Signature */ = {
+			isa = PBXGroup;
+			children = (
+				CECE12CE1433E45C0063EC3F /* MGKeySignature.h */,
+				CECE12CF1433E45C0063EC3F /* MGKeySignature.m */,
+			);
+			name = "Key Signature";
+			sourceTree = "<group>";
+		};
+		CECE12F01433E4DC0063EC3F /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				CECE12F11433E4F80063EC3F /* MGNote.h */,
+				CECE12F21433E4F80063EC3F /* MGNote.m */,
+				CE086560144974D600FB2CE3 /* Rests */,
+			);
+			name = Notes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MetroGnomeiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MetroGnomeiPad" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetroGnomeiPad;
+			productName = MetroGnomeiPad;
+			productReference = 1D6058910D05DD3D006BFB54 /* MetroGnomeiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MetroGnomeiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MetroGnomeiPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				CEADEB4B142DF5B3000601D5 /* ChoriumRevA.SF2 in Resources */,
+				C9BDF7C5149D9DA20000D67A /* Chopin Ocean Etude.mid in Resources */,
+				C9D6328914A05897005A6CC1 /* SheetMusicPaper.png in Resources */,
+				C98BDDFB14A13A4F00CB888F /* TrebleClefLogoBold.png in Resources */,
+				C98BDE4C14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png in Resources */,
+				C98BDE4F14A1A48000CB888F /* Default-Portrait~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MetroGnomeiPadAppDelegate.m in Sources */,
+				CEADEADC142DF0FB000601D5 /* MGInstrument.m in Sources */,
+				CECE117F143359F00063EC3F /* MGLesson.m in Sources */,
+				CECE12D01433E45C0063EC3F /* MGKeySignature.m in Sources */,
+				CECE12F31433E4F80063EC3F /* MGNote.m in Sources */,
+				CE0B16461435501F003BAD47 /* MGChord.m in Sources */,
+				CE1B68F9144010B400DACFC1 /* MGPart.m in Sources */,
+				CE1B69301440164300DACFC1 /* MGMIDIController.m in Sources */,
+				CE0865631449751100FB2CE3 /* MGRest.m in Sources */,
+				CE08656B14497D9B00FB2CE3 /* MGTimeSignature.m in Sources */,
+				C968C8DA14932103005C1FD1 /* MGSoundFont.m in Sources */,
+				C9551E86149EFE7600836A6D /* MGSheetMusicView.m in Sources */,
+				C9551E8A149F01F300836A6D /* MGSheetMusicViewController.m in Sources */,
+				C9D6329214A05E5E005A6CC1 /* MGScore.m in Sources */,
+				C9D6329714A06B8B005A6CC1 /* MGHomeViewController.m in Sources */,
+				C9AC579514AC252700DA31CD /* Array.m in Sources */,
+				C9AC579614AC252700DA31CD /* MidiFile.m in Sources */,
+				C9DCBF7C14AD6DFA00BE935C /* MGMidiFile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MetroGnomeiPad_Prefix.pch;
+				INFOPLIST_FILE = "MetroGnomeiPad-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/BASS\"",
+				);
+				PRODUCT_NAME = MetroGnomeiPad;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MetroGnomeiPad_Prefix.pch;
+				INFOPLIST_FILE = "MetroGnomeiPad-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/BASS\"",
+				);
+				PRODUCT_NAME = MetroGnomeiPad;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MetroGnomeiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MetroGnomeiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
