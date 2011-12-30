@@ -321,7 +321,16 @@
     return result;
 }
 
-
+- (NSString*)description {
+    NSString *s = [NSString stringWithFormat:
+                   @"Midi File tracks=%d quarter=%d %@\n",
+                   [self.tracks count], quarternote, [self.timeSignature description]];
+    for (int i = 0; i < [tracks count]; i++) {
+        MidiTrack *track = [tracks get:i];
+        s = [s stringByAppendingString:[track description]];
+    }
+    return s;
+}
 
 
 @end

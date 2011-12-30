@@ -196,6 +196,7 @@
     
     MGMidiFile *mgMidiFile = [[MGMidiFile alloc] initWithFile:filePath];
     NSLog(@"%@", [mgMidiFile.timeSignature description]);
+    NSLog(@"%@", [midiFile description])
     
     
     NSLog(@"testVaidyanathan complete");  

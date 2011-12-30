@@ -518,7 +518,7 @@ int sortbytime(void* v1, void* v2) {
  */
 - (id)initWithEvents:(Array*)list andTrack:(int)num {
     tracknum = num;
-    notes = [Array new:100];
+    notes = [Array new:100]; //arbitrary starting size
     instrument = 0;
 
     for (int i= 0;i < [list count]; i++) {
