@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "MGTimeSignature.h"
-#import "MidiFile.h"
+
 
 @interface MGMidiFile : NSObject {
     NSString* _filename;      /** The Midi file name */
@@ -25,8 +25,8 @@
 @property(nonatomic,retain) NSMutableArray *tracks;
 @property(nonatomic,assign) MGTimeSignature *timeSignature;
 
--(id)initWithFile:(NSString*)path;
--(Array*)readTrack:(MidiFileReader*)file;
+//-(id)initWithFile:(NSString*)path;
+//-(Array*)readTrack:(MidiFileReader*)file;
 /*-(NSMutableArray*)tracks;
 -(MGTimeSignature*)time;
 -(NSString*)filename;

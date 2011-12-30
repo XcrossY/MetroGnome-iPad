@@ -120,7 +120,7 @@
 }
 
 -(void)testMIDIFile {
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Chopin Ocean Etude" ofType:@"mid"];  
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"testVaid" ofType:@"mid"];  
     HSTREAM stream=BASS_MIDI_StreamCreateFile(FALSE, [filePath UTF8String], 0, 0, 0, 44100);
     if (BASS_ErrorGetCode()) {
         NSLog(@"Bass error: %i", BASS_ErrorGetCode());
@@ -189,14 +189,36 @@
     MGTimeSignature *timeSignature = [midiFile time];
     NSLog(@"%@", [timeSignature description]);
     
-    //[MidiFile writeMidiFile: withEvents:[midiFile events] andMode:<#(int)#> andQuarter:<#(int)#>]
+    NSLog(@"%@", [midiFile description]);
+    
+    
+    //try writing midi file
+    NSArray *myPathList =  NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *myPath    =  [myPathList  objectAtIndex:0];
+    NSError **err;
+    
+    NSString *fileName = [NSString stringWithFormat:@"testVaid.mid"];
+    myPath = [myPath stringByAppendingPathComponent:fileName];
+    
+    if(![[NSFileManager defaultManager] fileExistsAtPath:myPath])
+    {
+        [[NSFileManager defaultManager] createFileAtPath:myPath contents:nil attributes:nil];
+        [MidiFile writeMidiFile:fileName withEvents:[midiFile tracks] andMode:1 andQuarter:192]; //guessed the mode
+        
+        //[[NSString stringWithFormat:@"SUCCESS"] writeToFile:myPath atomically:NO encoding:NSUTF8StringEncoding error:err];
+    }
+    else
+    {
+        NSLog(@"writeMIDI: Cannot overwrite existing file %@", fileName);
+    }
+    
+    
     
     [midiFile release];
     
     
-    MGMidiFile *mgMidiFile = [[MGMidiFile alloc] initWithFile:filePath];
-    NSLog(@"%@", [mgMidiFile.timeSignature description]);
-    NSLog(@"%@", [midiFile description])
+    //MidiFile *mgMidiFile = [[MGMidiFile alloc] initWithFile:filePath];
+    //NSLog(@"%@", [mgMidiFile.timeSignature description]);
     
     
     NSLog(@"testVaidyanathan complete");  
