@@ -47,7 +47,7 @@
 
 -(void)test {
     //[self testScale];
-    [self testMIDIFile];
+    //[self testMIDIFile];
     [self writeMIDI:nil];
     [self loadMIDI:nil];
     [self testVaidyanathan];
@@ -114,13 +114,9 @@
     [testPart release];
 }
 
--(void)testBachChorale {
-    
-    
-}
 
 -(void)testMIDIFile {
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"testVaid" ofType:@"mid"];  
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Chopin Ocean Etude" ofType:@"mid"];  
     HSTREAM stream=BASS_MIDI_StreamCreateFile(FALSE, [filePath UTF8String], 0, 0, 0, 44100);
     if (BASS_ErrorGetCode()) {
         NSLog(@"Bass error: %i", BASS_ErrorGetCode());
@@ -193,26 +189,51 @@
     
     
     //try writing midi file
-    NSArray *myPathList =  NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    NSString *myPath    =  [myPathList  objectAtIndex:0];
-    NSError **err;
+//    NSArray *myPathList =  NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+//    NSString *myPath    =  [myPathList  objectAtIndex:0];
+//    
+//    NSString *fileName = [NSString stringWithFormat:@"test51.mid"];
+//    myPath = [myPath stringByAppendingPathComponent:fileName];
+//    
+//    if(![[NSFileManager defaultManager] fileExistsAtPath:myPath])
+//    {
+//        //[[NSFileManager defaultManager] createFileAtPath:myPath contents:nil attributes:nil];
+//        [MidiFile writeMidiFile:myPath withEvents:[midiFile events] andMode:1 andQuarter:192]; //guessed the mode
+//        
+//        //NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Chopin Ocean Etude" ofType:@"mid"];  
+//        HSTREAM stream=BASS_MIDI_StreamCreateFile(FALSE, [myPath UTF8String], 0, 0, 0, 44100);
+//        if (BASS_ErrorGetCode()) {
+//            NSLog(@"Bass error: %i", BASS_ErrorGetCode());
+//        }
+//        
+//        MGInstrument *testInstrument = [[MGInstrument alloc]initWithSoundFont:nil instrumentType:nil];
+//        
+//        BASS_MIDI_FONT streamFont[1];
+//        streamFont[0] = [testInstrument.soundFont getBASSMIDIFONT];
+//        [testInstrument release];
+//        
+//        BASS_MIDI_StreamSetFonts(stream, streamFont, 1); // apply it to the stream
+//        BASS_ChannelPlay(stream, FALSE);
+//        
+//    }
+//    else
+//    {
+//        NSLog(@"writeMIDI: Cannot overwrite existing file %@", fileName);
+//    }
     
-    NSString *fileName = [NSString stringWithFormat:@"testVaid.mid"];
-    myPath = [myPath stringByAppendingPathComponent:fileName];
-    
-    if(![[NSFileManager defaultManager] fileExistsAtPath:myPath])
-    {
-        [[NSFileManager defaultManager] createFileAtPath:myPath contents:nil attributes:nil];
-        [MidiFile writeMidiFile:fileName withEvents:[midiFile tracks] andMode:1 andQuarter:192]; //guessed the mode
-        
-        //[[NSString stringWithFormat:@"SUCCESS"] writeToFile:myPath atomically:NO encoding:NSUTF8StringEncoding error:err];
+    NSString *tempFileName = [midiFile writeTemporaryMIDI];
+    HSTREAM stream=BASS_MIDI_StreamCreateFile(FALSE, [tempFileName UTF8String], 0, 0, 0, 44100);
+    if (BASS_ErrorGetCode()) {
+    NSLog(@"Bass error: %i", BASS_ErrorGetCode());
     }
-    else
-    {
-        NSLog(@"writeMIDI: Cannot overwrite existing file %@", fileName);
-    }
+    MGInstrument *testInstrument = [[MGInstrument alloc]initWithSoundFont:nil instrumentType:nil];
+    BASS_MIDI_FONT streamFont[1];
+    streamFont[0] = [testInstrument.soundFont getBASSMIDIFONT];
+    [testInstrument release];
     
-    
+    BASS_MIDI_StreamSetFonts(stream, streamFont, 1); // apply it to the stream
+    BASS_ChannelPlay(stream, FALSE);
+
     
     [midiFile release];
     

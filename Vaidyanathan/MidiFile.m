@@ -1,3 +1,4 @@
+
 /*
  * Copyright (c) 2007-2011 Madhav Vaidyanathan
  *
@@ -847,7 +848,7 @@ int sortbytime(void* v1, void* v2) {
 
 @implementation MidiFile
 
-/*Z*/
+/*Z: Return the list of events*/
 -(Array*)events {
     return events;
 }
@@ -1133,6 +1134,24 @@ int sortbytime(void* v1, void* v2) {
     }
 
     return result;
+}
+
+//Returns filepath of new Midi file
+-(NSString *)writeTemporaryMIDI {
+    NSArray *myPathList =  NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *myPath    =  [myPathList  objectAtIndex:0];
+    
+    //Generate unused file name
+    BOOL success = false;
+    while (!success) {
+        int random = arc4random();
+        NSString *fileName = [NSString stringWithFormat:@"%d.mid", random];
+        myPath = [myPath stringByAppendingPathComponent:fileName];
+        if(![[NSFileManager defaultManager] fileExistsAtPath:myPath])
+            success = true;
+    }
+    [MidiFile writeMidiFile:myPath withEvents:events andMode:trackmode andQuarter:quarternote]; //guessed the mode
+    return myPath;    
 }
 
 
@@ -2288,8 +2307,8 @@ static NSArray* instrNames = NULL;
 
 - (NSString*)description {
     NSString *s = [NSString stringWithFormat:
-                     @"Midi File tracks=%d quarter=%d %@\n",
-                     [tracks count], quarternote, [timesig description]];
+                     @"Midi File tracks=%d quarter=%d trackmode=%d %@\n",
+                     [tracks count], quarternote, trackmode, [timesig description]];
     for (int i = 0; i < [tracks count]; i++) {
         MidiTrack *track = [tracks get:i];
         s = [s stringByAppendingString:[track description]];

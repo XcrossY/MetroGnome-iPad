@@ -211,6 +211,7 @@ int sortbytime(void* note1, void* note2);
 }
 
 -(Array*)events;
+-(NSString *)writeTemporaryMIDI; //Returns filepath of new Midi file
 
 -(id)initWithFile:(NSString*)path;
 -(Array*)readTrack:(MidiFileReader*)file;
