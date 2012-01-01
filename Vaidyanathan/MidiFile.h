@@ -201,17 +201,18 @@ int sortbytime(void* note1, void* note2);
 
 @interface MidiFile : NSObject {
     NSString* filename;      /** The Midi file name */
-    Array* events;           /** Array< Array<MidiEvent>> : the raw midi events */
-    Array *tracks;           /** The tracks (MidiTrack) of the midifile that have notes */
+    Array *events;           /** Array< Array<MidiEvent>> : the raw midi events. An Array of MidiTracks */
+    Array *tracks;           /** The tracks (MidiTrack) of the midifile that have notes. Array of MidiTracks that contain notes */
     u_short trackmode;       /** 0 (single track), 1 (simultaneous tracks) 2 (independent tracks) */
     MGTimeSignature* timesig;  /** The time signature */
     int quarternote;         /** The number of pulses per quarter note */
     int totalpulses;         /** The total length of the song, in pulses */
     BOOL trackPerChannel;    /** True if we've split each channel into a track */
 }
-
+//Instance Methods
 -(Array*)events;
 -(NSString *)writeTemporaryMIDI; //Returns filepath of new Midi file
+-(void)transposeByAmount:(int)interval;
 
 -(id)initWithFile:(NSString*)path;
 -(Array*)readTrack:(MidiFileReader*)file;
@@ -225,10 +226,11 @@ int sortbytime(void* note1, void* note2);
 -(BOOL)changeSoundPerChannel:(MidiSoundOptions *)options toFile:(NSString*)filename;
 -(Array*)changeSheetMusicOptions:(SheetMusicOptions*)options;
 
+
+//Class Methods
 +(void)findHighLowNotes:(Array*)notes withMeasure:(int)measurelen startIndex:(int)startindex
                         fromStart:(int)starttime toEnd:(int)endtime withHigh:(int*)high
                         andLow:(int*)low;
-
 +(void)findExactHighLowNotes:(Array*)notes startIndex:(int)startindex
                         withStart:(int)starttime withHigh:(int*)high
                         andLow:(int*)low; 
@@ -237,7 +239,7 @@ int sortbytime(void* note1, void* note2);
 +(Array*)splitChannels:(MidiTrack *)track withEvents:(Array*)events;
 +(MidiTrack*) combineToSingleTrack:(Array *)tracks;
 
-+(Array*) combineToTwoTracks:(Array *)tracks withMeasure:(int)measurelen;
++(Array*)combineToTwoTracks:(Array *)tracks withMeasure:(int)measurelen;
 +(void)checkStartTimes:(Array *)tracks;
 +(void)roundStartTimes:(Array *)tracks toInterval:(int)millisec  withTime:(MGTimeSignature*)time;
 +(void)roundDurations:(Array *)tracks withQuarter:(int)quarternote;

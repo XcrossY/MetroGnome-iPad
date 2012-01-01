@@ -48,8 +48,8 @@
 -(void)test {
     //[self testScale];
     //[self testMIDIFile];
-    [self writeMIDI:nil];
-    [self loadMIDI:nil];
+    //[self writeMIDI:nil];
+    //[self loadMIDI:nil];
     [self testVaidyanathan];
     return;
     
@@ -181,11 +181,8 @@
 -(void)testVaidyanathan {
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Chopin Ocean Etude" ofType:@"mid"]; 
     MidiFile *midiFile = [[MidiFile alloc] initWithFile:filePath];    
-    
-    MGTimeSignature *timeSignature = [midiFile time];
-    NSLog(@"%@", [timeSignature description]);
-    
-    NSLog(@"%@", [midiFile description]);
+
+    //NSLog(@"%@", [midiFile description]);
     
     
     //try writing midi file
@@ -220,6 +217,9 @@
 //    {
 //        NSLog(@"writeMIDI: Cannot overwrite existing file %@", fileName);
 //    }
+    
+    [midiFile transposeByAmount:INTERVAL_A4];
+    NSLog(@"%@", [midiFile description]);
     
     NSString *tempFileName = [midiFile writeTemporaryMIDI];
     HSTREAM stream=BASS_MIDI_StreamCreateFile(FALSE, [tempFileName UTF8String], 0, 0, 0, 44100);

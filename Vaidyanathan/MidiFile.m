@@ -907,7 +907,7 @@ int sortbytime(void* v1, void* v2) {
     int num_tracks = [file readShort];
     quarternote = [file readShort];
 
-    events = [Array new:num_tracks];
+    events = [Array new:num_tracks]; //Events is an array of arrays of each track
     for (int tracknum = 0; tracknum < num_tracks; tracknum++) {
         Array *trackevents = [self readTrack:file];
         MidiTrack *track = 
@@ -1152,6 +1152,20 @@ int sortbytime(void* v1, void* v2) {
     }
     [MidiFile writeMidiFile:myPath withEvents:events andMode:trackmode andQuarter:quarternote]; //guessed the mode
     return myPath;    
+}
+
+-(void)transposeByAmount:(int)interval {
+    [MidiFile transpose:tracks byAmount:interval];
+    //[MidiFile transpose:events byAmount:interval];
+    for (int i = 0; i < [events count]; i++) {
+        Array *array = [events get:i];
+        for (int j = 0; j < [array count]; j++) {
+            MidiEvent *event = [array get:j];
+            [event setNotenumber:[event notenumber]+interval];
+        }
+        
+      
+    }
 }
 
 
