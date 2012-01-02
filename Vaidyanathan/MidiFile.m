@@ -371,7 +371,6 @@ static void dowrite(int fd, u_char *buf, int len, int *error) {
 - (void)dealloc {
     if (eventFlag == MetaEvent || eventFlag == SysexEvent1 ||
         eventFlag == SysexEvent2) {
-        /* free(metavalue); */
         metavalue = NULL;
     }
     [super dealloc];
@@ -543,6 +542,7 @@ int sortbytime(void* v1, void* v2) {
         else if ([mevent eventFlag] == EventProgramChange) {
             instrument = [mevent instrument];
         }
+        else NSLog(@"Not a MIDITrack event");
     }
     if ([notes count] > 0 && [(MidiNote*)[notes get:0] channel] == 9) {
         instrument = 128;  /* Percussion */
@@ -2328,6 +2328,22 @@ static NSArray* instrNames = NULL;
         s = [s stringByAppendingString:[track description]];
     }
     return s;
+}
+
+-(u_short)trackmode {
+    return trackmode;
+}
+
+-(MGTimeSignature *)timesig {
+    return timesig;
+}
+
+-(BOOL)trackPerChannel {
+    return trackPerChannel;
+}
+
+-(int)quarternote {
+    return quarternote;
 }
 
 @end /* class MidiFile */

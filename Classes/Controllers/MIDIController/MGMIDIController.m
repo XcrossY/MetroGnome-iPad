@@ -84,7 +84,7 @@
     [testChord2 release];
     
     
-    [testPart play:stream];
+    //[testPart play:stream];
     [testPart release];
 }
 
@@ -110,7 +110,7 @@
         [testNote release];
     }
         
-    [testPart play:stream];
+    //[testPart play:stream];
     [testPart release];
 }
 
@@ -138,7 +138,7 @@
 -(void)play:(MGPart *)part {
     HSTREAM stream = [self initStream];
     
-    [part play:stream];
+    //[part play:stream];
 }
 
 //Currently not using args
@@ -219,7 +219,7 @@
 //    }
     
     [midiFile transposeByAmount:INTERVAL_A4];
-    NSLog(@"%@", [midiFile description]);
+    //NSLog(@"%@", [midiFile description]);
     
     NSString *tempFileName = [midiFile writeTemporaryMIDI];
     HSTREAM stream=BASS_MIDI_StreamCreateFile(FALSE, [tempFileName UTF8String], 0, 0, 0, 44100);
@@ -236,12 +236,7 @@
 
     
     [midiFile release];
-    
-    
-    //MidiFile *mgMidiFile = [[MGMidiFile alloc] initWithFile:filePath];
-    //NSLog(@"%@", [mgMidiFile.timeSignature description]);
-    
-    
+
     NSLog(@"testVaidyanathan complete");  
 }
 

@@ -11,7 +11,6 @@
 
 @interface MGNote (Private)
 -(BOOL)checkBASSError;
--(NSInteger)MIDIValue;
 @end
 
 
@@ -19,6 +18,8 @@
 @synthesize pitchClass  = _pitchClass;
 @synthesize octave      = _octave;
 @synthesize duration    = _duration;
+@synthesize startTime   = _startTime;
+@synthesize velocity    = _velocity;
 
 -(void)dealloc {
     [super dealloc];
@@ -44,6 +45,24 @@
         }
     }
     
+    return self;
+}
+
+-(id)initWithMidiEvent:(MidiEvent *)midiEvent {
+    if (self = [super init]) {
+        //EventNoteOn triggers creation of MGNote
+        if ([midiEvent eventFlag] == EventNoteOn && [midiEvent velocity] >= 0) {
+            self.startTime = [midiEvent startTime];
+            self.pitchClass = [midiEvent notenumber] % 12;
+            self.octave = ([midiEvent notenumber] / 12) + 1;
+            self.velocity = [midiEvent velocity];
+            self.duration = 0; //Will be modified upon NoteOff event
+        }
+        /*else if ([mevent eventFlag] == EventProgramChange) {
+            instrument = [mevent instrument];
+        }*/
+        else NSLog(@"MGNote: Failed initWithMidiEvent:");   
+    }
     return self;
 }
 
@@ -124,12 +143,10 @@
     return FALSE;
 }
 
+//Octave numbering following C4 convention
 -(NSInteger)MIDIValue {
     return 12 * (self.octave + 1) + self.pitchClass;
 }
-
-
-
 
 
 @end

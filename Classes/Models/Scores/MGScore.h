@@ -9,14 +9,25 @@
 #import <Foundation/Foundation.h>
 #import "MGPart.h"
 #import "MGTimeSignature.h"
+#import "MidiFile.h"
 
 /* A part contains a string of notes/chords. It is a single instrument,
  voice, or piano (one or both hands) */
 @interface MGScore : NSObject {
-    NSMutableArray *array; //of MGParts
+    NSString *_fileName;     /** The full Midi file path */
+    NSMutableArray *_partsArray;   /** of MGParts */
     MGTimeSignature *_timeSignature;
+    u_short _trackMode;       /** 0 (single track), 1 (simultaneous tracks) 2 (independent tracks) */
+    int _quarterNote;         /** The number of pulses per quarter note */
+    int _totalPulses;         /** The total length of the song, in pulses */
+    BOOL trackPerChannel;    /** True if we've split each channel into a track */
 }
+@property(nonatomic,assign) NSString *fileName;
+@property(nonatomic,retain) NSMutableArray *partsArray;
 @property(nonatomic,assign) MGTimeSignature *timeSignature;
+@property(nonatomic,assign) u_short trackMode;
+@property(nonatomic,assign) int quarterNote;
+@property(nonatomic,assign) int totalPulses;
 
 //Initialization functions
 -(id)initWithCapacity: (NSInteger)capacity
@@ -26,8 +37,8 @@
 
 -(void)add:             (MGPart *)part; 
 
-
-
+-(id)initWithMidiFile: (MidiFile *)midiFile;
+-(id)initWithFileName: (NSString *)fileName;
 
 
 @end

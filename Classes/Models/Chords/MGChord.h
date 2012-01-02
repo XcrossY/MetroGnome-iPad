@@ -11,7 +11,7 @@
 
 // A chord is an NSMutableArray of MGNotes
 @interface MGChord : NSObject {
-    NSMutableArray *array;
+    NSMutableArray *array; //Array of MGNotes
 }
 
 -(id)initWithCapacity:          (NSInteger) capacity;

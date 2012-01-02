@@ -159,7 +159,7 @@ int sortbytime(void* note1, void* note2);
 
 @interface MidiTrack : NSObject <NSCopying> {
     int tracknum;          /** The track number */
-    Array* notes;          /** Array of Midi notes */
+    Array* notes;          /** Array of notes */
     int instrument;        /** Instrument for this track */
 }
 -(id)initWithTrack:(int)tracknum;
@@ -213,6 +213,10 @@ int sortbytime(void* note1, void* note2);
 -(Array*)events;
 -(NSString *)writeTemporaryMIDI; //Returns filepath of new Midi file
 -(void)transposeByAmount:(int)interval;
+-(u_short)trackmode;
+-(MGTimeSignature *)timesig;
+-(BOOL)trackPerChannel;
+-(int)quarternote;
 
 -(id)initWithFile:(NSString*)path;
 -(Array*)readTrack:(MidiFileReader*)file;
