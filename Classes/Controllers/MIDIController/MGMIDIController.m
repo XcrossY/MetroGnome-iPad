@@ -14,8 +14,7 @@
 #import "MGSoundFont.h"
 #import "MGNote.h"
 #import "MGChord.h"
-#import "MIDIValues.h"
-#import "MGMidiFile.h"
+#import "MGScore.h"
 
 #import "MidiFile.h"
 
@@ -25,6 +24,7 @@
 -(void)testBachChorale;
 -(void)testMIDIFile;
 -(void)testVaidyanathan;
+-(void)testMG;
 @end
 
 
@@ -50,7 +50,8 @@
     //[self testMIDIFile];
     //[self writeMIDI:nil];
     //[self loadMIDI:nil];
-    [self testVaidyanathan];
+    //[self testVaidyanathan];
+    [self testMG];
     return;
     
     HSTREAM stream = [self initStream];
@@ -240,7 +241,12 @@
     NSLog(@"testVaidyanathan complete");  
 }
 
-
+-(void)testMG {
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Chopin Ocean Etude" ofType:@"mid"]; 
+    MGScore *score = [[MGScore alloc]initWithFileName:filePath];
+    
+     NSLog(@"testMG complete");
+}
 
 #pragma mark 
 #pragma mark Private

@@ -14,8 +14,9 @@
 @interface MGPart : NSObject {
     NSMutableArray *_notesArray;
     MGTimeSignature *_timeSignature;
+    //track number?
 }
-@property(nonatomic,retain) NSMutableArray *notesArray;
+@property(nonatomic,assign) NSMutableArray *notesArray;
 @property(nonatomic,assign) MGTimeSignature *timeSignature;
 
 //Initialization functions

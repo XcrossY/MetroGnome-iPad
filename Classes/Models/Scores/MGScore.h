@@ -23,10 +23,10 @@
     BOOL trackPerChannel;    /** True if we've split each channel into a track */
 }
 @property(nonatomic,assign) NSString *fileName;
-@property(nonatomic,retain) NSMutableArray *partsArray;
+@property(nonatomic,assign) NSMutableArray *partsArray;
 @property(nonatomic,assign) MGTimeSignature *timeSignature;
 @property(nonatomic,assign) u_short trackMode;
-@property(nonatomic,assign) int quarterNote;
+@property(nonatomic,assign) int quarterNote; //redundant with time signature
 @property(nonatomic,assign) int totalPulses;
 
 //Initialization functions

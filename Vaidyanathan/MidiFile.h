@@ -86,6 +86,8 @@ typedef struct _SheetMusicOptions SheetMusicOptions;
     u_char* metavalue;     /** The raw byte value, for Sysex and meta events */
 }
 
+-(BOOL)isNoteEvent; //Returns TRUE if event is NoteOn or NoteOff
+
 -(id)init;
 -(int)deltaTime;
 -(int)startTime;

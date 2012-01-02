@@ -28,16 +28,20 @@
 //The number of notes/chords.
 -(id)initWithCapacity:(NSInteger)capacity 
      andTimeSignature:(MGTimeSignature *)timeSignature {
-    if (capacity == 0) {
-        capacity = 1;
-    }
-    self.notesArray = [NSMutableArray arrayWithCapacity:capacity];
     
-    if (timeSignature == nil) {
-        self.timeSignature = [MGTimeSignature commonTime];
-    }
-    else {
-        self.timeSignature = timeSignature;
+    if (self = [super init]) {
+       self.notesArray = [[NSMutableArray alloc]initWithCapacity:1]; 
+        if (capacity == 0) {
+            capacity = 1;
+        }
+        self.notesArray = [NSMutableArray arrayWithCapacity:capacity];
+        
+        if (timeSignature == nil) {
+            self.timeSignature = [MGTimeSignature commonTime];
+        }
+        else {
+            self.timeSignature = timeSignature;
+        }
     }
     return self;
 }
@@ -53,6 +57,7 @@
 /** Adds MidiNotes for every MidiEvent */
 -(id)initWithMidiEventArray:(Array *)eventArray {
     if (self = [super init]) {
+        self.notesArray = [[NSMutableArray alloc]initWithCapacity:0];
         for (int i = 0; i < [eventArray count]; i++) {
             MidiEvent *midiEvent = [eventArray get:i];
             if ([midiEvent eventFlag] == EventNoteOn && [midiEvent velocity] >= 0)
@@ -64,8 +69,8 @@
                 [self noteOffMidiEvent:midiEvent];
             }
         }
-
     }
+
     return self;
 }
 

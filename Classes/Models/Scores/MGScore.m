@@ -19,6 +19,7 @@
 #pragma mark 
 #pragma mark Initialization
 -(void)dealloc {
+    [self.partsArray release];
     [super dealloc];   
 }
 
@@ -55,11 +56,14 @@
         self.totalPulses = [midiFile totalpulses];
         self.quarterNote = [midiFile quarternote];
         self.trackMode = [midiFile trackmode];
+        self.partsArray = [[NSMutableArray alloc]initWithCapacity:1];
         
         for (int i = 0; i < [[midiFile events] count]; i++) {
             Array *trackArray = [[midiFile events] get:i];
             MGPart *part = [[MGPart alloc]initWithMidiEventArray:trackArray];
-            [self.partsArray insertObject:part atIndex:i];
+            if (part != nil && [part.notesArray count] != 0) {
+                [self.partsArray addObject:part];   
+            }
         }  
     }
     return self;

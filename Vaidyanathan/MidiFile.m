@@ -278,6 +278,13 @@ static void dowrite(int fd, u_char *buf, int len, int *error) {
  */
 @implementation MidiEvent
 
+
+-(BOOL)isNoteEvent {
+    if (eventFlag == EventNoteOn || eventFlag == EventNoteOff)
+        return TRUE;
+    else return false;
+}
+
 /** Initialize all the MidiEvent fields to 0 */
 - (id)init {
     deltaTime = 0;
