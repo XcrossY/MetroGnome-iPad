@@ -13,8 +13,14 @@
 
 @interface MGSheetMusicViewController : UIViewController {
     MGSheetMusicView *_sheetMusicView;
+    MGScore *_score;
 }
 @property(nonatomic,retain) MGSheetMusicView *sheetMusicView;
+@property(nonatomic,retain) MGScore *score;
 
 -(id)initWithMGScore:(MGScore *)score;
+
+/** Displays all parts of the MGScore */
+-(void)displayAll;
+
 @end

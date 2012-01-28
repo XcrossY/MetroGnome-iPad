@@ -15,6 +15,9 @@
 #import "MGNote.h"
 #import "MGChord.h"
 #import "MGScore.h"
+#import "MGSheetMusicView.h"
+#import "MGSheetMusicViewController.h"
+
 
 #import "MidiFile.h"
 
@@ -30,6 +33,7 @@
 
 
 @implementation MGMIDIController
+//@synthesize view = _view;
 
 -(void)dealloc {
     [super dealloc];   
@@ -45,9 +49,21 @@
     return self;   
 }
 
+
+//Rotates the interface to landscape
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)orientation
+{
+    if ((orientation == UIInterfaceOrientationLandscapeRight) ||
+        (orientation == UIInterfaceOrientationLandscapeLeft))
+        return YES;
+    
+    return NO;
+}
+
+
 -(void)test {
     //[self testScale];
-    //[self testMIDIFile];
+    [self testMIDIFile];
     //[self writeMIDI:nil];
     //[self loadMIDI:nil];
     //[self testVaidyanathan];
@@ -244,6 +260,13 @@
 -(void)testMG {
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Chopin Ocean Etude" ofType:@"mid"]; 
     MGScore *score = [[MGScore alloc]initWithFileName:filePath];
+    
+    self.view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 960, 1024)];
+    self.view.autoresizesSubviews = YES;
+    
+    MGSheetMusicViewController *sheetMusicController = [[MGSheetMusicViewController alloc]initWithMGScore:score];
+    [self.view addSubview:sheetMusicController.sheetMusicView];
+    [sheetMusicController displayAll];
     
      NSLog(@"testMG complete");
 }

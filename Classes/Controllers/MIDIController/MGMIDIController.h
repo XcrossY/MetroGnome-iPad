@@ -9,9 +9,11 @@
 #import <Foundation/Foundation.h>
 #import "MGPart.h"
 
-@interface MGMIDIController : NSObject {
-    
+@interface MGMIDIController : UIViewController {
+    //UIView *_view;
 }
+//@property(nonatomic,retain) UIView *view;
+
 
 -(void)test;
 -(void)play:(MGPart *)part;

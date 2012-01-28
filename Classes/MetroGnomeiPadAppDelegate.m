@@ -22,12 +22,19 @@
     
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
+    
+    //Rotate to landscape mode
+    application.statusBarHidden=YES;
+    //[application setStatusBarOrientation:UIInterfaceOrientationLandscapeRight animated:NO];  
+    
+    //MidiController is purely a test class
     MGMIDIController *controller = [[MGMIDIController alloc]init];
     [controller test];  
+    [self.window addSubview:controller.view];
     [controller release];
     
-    MGHomeViewController *homeViewController = [[MGHomeViewController alloc] init];
-    [self.window addSubview:homeViewController.view];
+    //MGHomeViewController *homeViewController = [[MGHomeViewController alloc] init];
+    //[self.window addSubview:homeViewController.view];
     
     //MGSheetMusicViewController *viewController = [[MGSheetMusicViewController alloc]initWithMGScore:nil];
     //[self.window addSubview:viewController.sheetMusicView];

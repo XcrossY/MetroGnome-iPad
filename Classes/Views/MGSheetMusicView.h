@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MGScore.h"
 
 @interface MGSheetMusicView : UIView
 
+-(void)display:(MGScore *)score;
 @end
+

@@ -16,6 +16,9 @@
 		C9551E86149EFE7600836A6D /* MGSheetMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9551E85149EFE7600836A6D /* MGSheetMusicView.m */; };
 		C9551E8A149F01F300836A6D /* MGSheetMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9551E89149F01F300836A6D /* MGSheetMusicViewController.m */; };
 		C968C8DA14932103005C1FD1 /* MGSoundFont.m in Sources */ = {isa = PBXBuildFile; fileRef = C968C8D914932103005C1FD1 /* MGSoundFont.m */; };
+		C98771E214CC8C9300649C26 /* MGSingleStaffView.m in Sources */ = {isa = PBXBuildFile; fileRef = C98771E114CC8C9300649C26 /* MGSingleStaffView.m */; };
+		C98771E514CC8EF900649C26 /* SingleStaff.png in Resources */ = {isa = PBXBuildFile; fileRef = C98771E414CC8EF900649C26 /* SingleStaff.png */; };
+		C987723014CCE1B500649C26 /* MGDoubleStaffView.m in Sources */ = {isa = PBXBuildFile; fileRef = C987722F14CCE1B500649C26 /* MGDoubleStaffView.m */; };
 		C98BDDFB14A13A4F00CB888F /* TrebleClefLogoBold.png in Resources */ = {isa = PBXBuildFile; fileRef = C98BDDFA14A13A4F00CB888F /* TrebleClefLogoBold.png */; };
 		C98BDE4C14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = C98BDE4B14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png */; };
 		C98BDE4F14A1A48000CB888F /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C98BDE4E14A1A48000CB888F /* Default-Portrait~ipad.png */; };
@@ -27,7 +30,6 @@
 		C9D6328914A05897005A6CC1 /* SheetMusicPaper.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D6328814A05897005A6CC1 /* SheetMusicPaper.png */; };
 		C9D6329214A05E5E005A6CC1 /* MGScore.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D6329114A05E5E005A6CC1 /* MGScore.m */; };
 		C9D6329714A06B8B005A6CC1 /* MGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D6329614A06B8B005A6CC1 /* MGHomeViewController.m */; };
-		C9DCBF7C14AD6DFA00BE935C /* MGMidiFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DCBF7B14AD6DFA00BE935C /* MGMidiFile.m */; };
 		CE0865631449751100FB2CE3 /* MGRest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0865621449751100FB2CE3 /* MGRest.m */; };
 		CE08656B14497D9B00FB2CE3 /* MGTimeSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = CE08656A14497D9B00FB2CE3 /* MGTimeSignature.m */; };
 		CE0B16461435501F003BAD47 /* MGChord.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0B16451435501F003BAD47 /* MGChord.m */; };
@@ -60,6 +62,11 @@
 		C9551E88149F01F300836A6D /* MGSheetMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSheetMusicViewController.h; path = Controllers/MGSheetMusicViewController.h; sourceTree = "<group>"; };
 		C9551E89149F01F300836A6D /* MGSheetMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSheetMusicViewController.m; path = Controllers/MGSheetMusicViewController.m; sourceTree = "<group>"; };
 		C968C8D914932103005C1FD1 /* MGSoundFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSoundFont.m; path = Models/SoundFonts/MGSoundFont.m; sourceTree = "<group>"; };
+		C98771E014CC8C9300649C26 /* MGSingleStaffView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSingleStaffView.h; path = "Views/Musical Notation Views/MGSingleStaffView.h"; sourceTree = "<group>"; };
+		C98771E114CC8C9300649C26 /* MGSingleStaffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSingleStaffView.m; path = "Views/Musical Notation Views/MGSingleStaffView.m"; sourceTree = "<group>"; };
+		C98771E414CC8EF900649C26 /* SingleStaff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SingleStaff.png; path = Resources/SingleStaff.png; sourceTree = "<group>"; };
+		C987722E14CCE1B500649C26 /* MGDoubleStaffView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGDoubleStaffView.h; path = "Views/Musical Notation Views/MGDoubleStaffView.h"; sourceTree = "<group>"; };
+		C987722F14CCE1B500649C26 /* MGDoubleStaffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGDoubleStaffView.m; path = "Views/Musical Notation Views/MGDoubleStaffView.m"; sourceTree = "<group>"; };
 		C98BDDFA14A13A4F00CB888F /* TrebleClefLogoBold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrebleClefLogoBold.png; path = Resources/TrebleClefLogoBold.png; sourceTree = "<group>"; };
 		C98BDE4B14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SheetMusicPaperLogoPortrait.png; path = Resources/SheetMusicPaperLogoPortrait.png; sourceTree = "<group>"; };
 		C98BDE4E14A1A48000CB888F /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
@@ -73,8 +80,6 @@
 		C9D6329114A05E5E005A6CC1 /* MGScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGScore.m; path = Models/Scores/MGScore.m; sourceTree = "<group>"; };
 		C9D6329514A06B8B005A6CC1 /* MGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGHomeViewController.h; path = Controllers/HomeViewController/MGHomeViewController.h; sourceTree = "<group>"; };
 		C9D6329614A06B8B005A6CC1 /* MGHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGHomeViewController.m; path = Controllers/HomeViewController/MGHomeViewController.m; sourceTree = "<group>"; };
-		C9DCBF7A14AD6DFA00BE935C /* MGMidiFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGMidiFile.h; path = "Models/MIDI File/MGMidiFile.h"; sourceTree = "<group>"; };
-		C9DCBF7B14AD6DFA00BE935C /* MGMidiFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGMidiFile.m; path = "Models/MIDI File/MGMidiFile.m"; sourceTree = "<group>"; };
 		CE0865611449751100FB2CE3 /* MGRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGRest.h; path = Classes/Models/Note/Rests/MGRest.h; sourceTree = SOURCE_ROOT; };
 		CE0865621449751100FB2CE3 /* MGRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGRest.m; path = Classes/Models/Note/Rests/MGRest.m; sourceTree = SOURCE_ROOT; };
 		CE08656914497D9B00FB2CE3 /* MGTimeSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTimeSignature.h; path = "Classes/Models/Time Signature/MGTimeSignature.h"; sourceTree = SOURCE_ROOT; };
@@ -177,6 +182,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C98771E414CC8EF900649C26 /* SingleStaff.png */,
 				C98BDE4E14A1A48000CB888F /* Default-Portrait~ipad.png */,
 				C98BDE4B14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png */,
 				C98BDDFA14A13A4F00CB888F /* TrebleClefLogoBold.png */,
@@ -203,6 +209,26 @@
 				CEADEAB6142DED66000601D5 /* libbassmidi.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C98771E314CC8C9900649C26 /* Musical Notation */ = {
+			isa = PBXGroup;
+			children = (
+				C98771E014CC8C9300649C26 /* MGSingleStaffView.h */,
+				C98771E114CC8C9300649C26 /* MGSingleStaffView.m */,
+				C987722E14CCE1B500649C26 /* MGDoubleStaffView.h */,
+				C987722F14CCE1B500649C26 /* MGDoubleStaffView.m */,
+			);
+			name = "Musical Notation";
+			sourceTree = "<group>";
+		};
+		C987722D14CC962000649C26 /* SheetMusicViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9551E88149F01F300836A6D /* MGSheetMusicViewController.h */,
+				C9551E89149F01F300836A6D /* MGSheetMusicViewController.m */,
+			);
+			name = SheetMusicViewController;
 			sourceTree = "<group>";
 		};
 		C9AC578A14AC23F700DA31CD /* Vaidyanathan */ = {
@@ -241,15 +267,6 @@
 				CE1B692F1440164300DACFC1 /* MGMIDIController.m */,
 			);
 			name = MIDIController;
-			sourceTree = "<group>";
-		};
-		C9DCBF7914AD6DD700BE935C /* MIDI Files */ = {
-			isa = PBXGroup;
-			children = (
-				C9DCBF7A14AD6DFA00BE935C /* MGMidiFile.h */,
-				C9DCBF7B14AD6DFA00BE935C /* MGMidiFile.m */,
-			);
-			name = "MIDI Files";
 			sourceTree = "<group>";
 		};
 		CE086560144974D600FB2CE3 /* Rests */ = {
@@ -316,7 +333,6 @@
 		CECE11771433587D0063EC3F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C9DCBF7914AD6DD700BE935C /* MIDI Files */,
 				C9D6329314A05E6E005A6CC1 /* Scores */,
 				CE1B68E71440100B00DACFC1 /* Parts */,
 				CE0B164314354FFC003BAD47 /* Chords */,
@@ -331,6 +347,7 @@
 		CECE1178143358860063EC3F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C98771E314CC8C9900649C26 /* Musical Notation */,
 				C9551E84149EFE7600836A6D /* MGSheetMusicView.h */,
 				C9551E85149EFE7600836A6D /* MGSheetMusicView.m */,
 			);
@@ -340,10 +357,9 @@
 		CECE11791433588C0063EC3F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C987722D14CC962000649C26 /* SheetMusicViewController */,
 				C9D6329414A06B60005A6CC1 /* HomeViewController */,
 				C9D6329814A06B91005A6CC1 /* MIDIController */,
-				C9551E88149F01F300836A6D /* MGSheetMusicViewController.h */,
-				C9551E89149F01F300836A6D /* MGSheetMusicViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -435,6 +451,7 @@
 				C98BDDFB14A13A4F00CB888F /* TrebleClefLogoBold.png in Resources */,
 				C98BDE4C14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png in Resources */,
 				C98BDE4F14A1A48000CB888F /* Default-Portrait~ipad.png in Resources */,
+				C98771E514CC8EF900649C26 /* SingleStaff.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +480,8 @@
 				C9D6329714A06B8B005A6CC1 /* MGHomeViewController.m in Sources */,
 				C9AC579514AC252700DA31CD /* Array.m in Sources */,
 				C9AC579614AC252700DA31CD /* MidiFile.m in Sources */,
-				C9DCBF7C14AD6DFA00BE935C /* MGMidiFile.m in Sources */,
+				C98771E214CC8C9300649C26 /* MGSingleStaffView.m in Sources */,
+				C987723014CCE1B500649C26 /* MGDoubleStaffView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

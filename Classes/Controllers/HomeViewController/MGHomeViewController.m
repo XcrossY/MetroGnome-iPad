@@ -19,10 +19,14 @@
 -(id)init {
     if (self = [super init]) {
         //[self intro];
+        CGSize screenSize = [UIScreen mainScreen].currentMode.size;
+        self.view = [[MGSheetMusicView alloc]initWithFrame:CGRectMake(0, 0, screenSize.width, screenSize.height)];
     }
     return self;
 }
 
+
+//Deprecate
 -(void)intro {
     if (self) {
         CGSize screenSize = [UIScreen mainScreen].currentMode.size;
