@@ -21,7 +21,6 @@
 		C987723014CCE1B500649C26 /* MGDoubleStaffView.m in Sources */ = {isa = PBXBuildFile; fileRef = C987722F14CCE1B500649C26 /* MGDoubleStaffView.m */; };
 		C98BDDFB14A13A4F00CB888F /* TrebleClefLogoBold.png in Resources */ = {isa = PBXBuildFile; fileRef = C98BDDFA14A13A4F00CB888F /* TrebleClefLogoBold.png */; };
 		C98BDE4C14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = C98BDE4B14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png */; };
-		C98BDE4F14A1A48000CB888F /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C98BDE4E14A1A48000CB888F /* Default-Portrait~ipad.png */; };
 		C9A3E5B614955C8100399DC4 /* libbass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEADEAB4142DED65000601D5 /* libbass.a */; };
 		C9A3E5B714955C8400399DC4 /* libbassmidi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEADEAB6142DED66000601D5 /* libbassmidi.a */; };
 		C9AC579514AC252700DA31CD /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AC579014AC252700DA31CD /* Array.m */; };
@@ -69,7 +68,6 @@
 		C987722F14CCE1B500649C26 /* MGDoubleStaffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGDoubleStaffView.m; path = "Views/Musical Notation Views/MGDoubleStaffView.m"; sourceTree = "<group>"; };
 		C98BDDFA14A13A4F00CB888F /* TrebleClefLogoBold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrebleClefLogoBold.png; path = Resources/TrebleClefLogoBold.png; sourceTree = "<group>"; };
 		C98BDE4B14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SheetMusicPaperLogoPortrait.png; path = Resources/SheetMusicPaperLogoPortrait.png; sourceTree = "<group>"; };
-		C98BDE4E14A1A48000CB888F /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		C9AC578F14AC252700DA31CD /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Array.h; path = Vaidyanathan/Array.h; sourceTree = "<group>"; };
 		C9AC579014AC252700DA31CD /* Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Array.m; path = Vaidyanathan/Array.m; sourceTree = "<group>"; };
 		C9AC579114AC252700DA31CD /* MidiFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MidiFile.h; path = Vaidyanathan/MidiFile.h; sourceTree = "<group>"; };
@@ -183,7 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				C98771E414CC8EF900649C26 /* SingleStaff.png */,
-				C98BDE4E14A1A48000CB888F /* Default-Portrait~ipad.png */,
 				C98BDE4B14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png */,
 				C98BDDFA14A13A4F00CB888F /* TrebleClefLogoBold.png */,
 				C9D6328814A05897005A6CC1 /* SheetMusicPaper.png */,
@@ -450,7 +447,6 @@
 				C9D6328914A05897005A6CC1 /* SheetMusicPaper.png in Resources */,
 				C98BDDFB14A13A4F00CB888F /* TrebleClefLogoBold.png in Resources */,
 				C98BDE4C14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png in Resources */,
-				C98BDE4F14A1A48000CB888F /* Default-Portrait~ipad.png in Resources */,
 				C98771E514CC8EF900649C26 /* SingleStaff.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
