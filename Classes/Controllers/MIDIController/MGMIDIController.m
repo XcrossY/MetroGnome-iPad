@@ -265,8 +265,9 @@
     self.view.autoresizesSubviews = YES;
     
     MGSheetMusicViewController *sheetMusicController = [[MGSheetMusicViewController alloc]initWithMGScore:score];
-    [self.view addSubview:sheetMusicController.sheetMusicView];
     [sheetMusicController displayAll];
+    [self.view addSubview:sheetMusicController.sheetMusicView];
+    
     
      NSLog(@"testMG complete");
 }

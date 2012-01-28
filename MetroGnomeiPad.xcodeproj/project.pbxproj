@@ -21,12 +21,15 @@
 		C987723014CCE1B500649C26 /* MGDoubleStaffView.m in Sources */ = {isa = PBXBuildFile; fileRef = C987722F14CCE1B500649C26 /* MGDoubleStaffView.m */; };
 		C98BDDFB14A13A4F00CB888F /* TrebleClefLogoBold.png in Resources */ = {isa = PBXBuildFile; fileRef = C98BDDFA14A13A4F00CB888F /* TrebleClefLogoBold.png */; };
 		C98BDE4C14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = C98BDE4B14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png */; };
+		C99A0A3914D3BC8F00A71551 /* MGBarLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C99A0A3814D3BC8F00A71551 /* MGBarLineView.m */; };
+		C99A0A3C14D3BE7200A71551 /* SheetMusicPaper.png in Resources */ = {isa = PBXBuildFile; fileRef = C99A0A3B14D3BE7200A71551 /* SheetMusicPaper.png */; };
+		C99A0A3E14D3BEE800A71551 /* BarLine.png in Resources */ = {isa = PBXBuildFile; fileRef = C99A0A3D14D3BEE800A71551 /* BarLine.png */; };
+		C99A0A4114D3C4E100A71551 /* MGTimeSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = C99A0A4014D3C4E100A71551 /* MGTimeSignatureView.m */; };
 		C9A3E5B614955C8100399DC4 /* libbass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEADEAB4142DED65000601D5 /* libbass.a */; };
 		C9A3E5B714955C8400399DC4 /* libbassmidi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEADEAB6142DED66000601D5 /* libbassmidi.a */; };
 		C9AC579514AC252700DA31CD /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AC579014AC252700DA31CD /* Array.m */; };
 		C9AC579614AC252700DA31CD /* MidiFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AC579214AC252700DA31CD /* MidiFile.m */; };
 		C9BDF7C5149D9DA20000D67A /* Chopin Ocean Etude.mid in Resources */ = {isa = PBXBuildFile; fileRef = C9BDF7C4149D9DA20000D67A /* Chopin Ocean Etude.mid */; };
-		C9D6328914A05897005A6CC1 /* SheetMusicPaper.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D6328814A05897005A6CC1 /* SheetMusicPaper.png */; };
 		C9D6329214A05E5E005A6CC1 /* MGScore.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D6329114A05E5E005A6CC1 /* MGScore.m */; };
 		C9D6329714A06B8B005A6CC1 /* MGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D6329614A06B8B005A6CC1 /* MGHomeViewController.m */; };
 		CE0865631449751100FB2CE3 /* MGRest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0865621449751100FB2CE3 /* MGRest.m */; };
@@ -68,12 +71,17 @@
 		C987722F14CCE1B500649C26 /* MGDoubleStaffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGDoubleStaffView.m; path = "Views/Musical Notation Views/MGDoubleStaffView.m"; sourceTree = "<group>"; };
 		C98BDDFA14A13A4F00CB888F /* TrebleClefLogoBold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrebleClefLogoBold.png; path = Resources/TrebleClefLogoBold.png; sourceTree = "<group>"; };
 		C98BDE4B14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SheetMusicPaperLogoPortrait.png; path = Resources/SheetMusicPaperLogoPortrait.png; sourceTree = "<group>"; };
+		C99A0A3714D3BC8F00A71551 /* MGBarLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGBarLineView.h; path = "Views/Musical Notation Views/MGBarLineView.h"; sourceTree = "<group>"; };
+		C99A0A3814D3BC8F00A71551 /* MGBarLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGBarLineView.m; path = "Views/Musical Notation Views/MGBarLineView.m"; sourceTree = "<group>"; };
+		C99A0A3B14D3BE7200A71551 /* SheetMusicPaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SheetMusicPaper.png; path = Resources/SheetMusicPaper.png; sourceTree = "<group>"; };
+		C99A0A3D14D3BEE800A71551 /* BarLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BarLine.png; path = Resources/BarLine.png; sourceTree = "<group>"; };
+		C99A0A3F14D3C4E100A71551 /* MGTimeSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTimeSignatureView.h; path = "Views/Musical Notation Views/MGTimeSignatureView.h"; sourceTree = "<group>"; };
+		C99A0A4014D3C4E100A71551 /* MGTimeSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTimeSignatureView.m; path = "Views/Musical Notation Views/MGTimeSignatureView.m"; sourceTree = "<group>"; };
 		C9AC578F14AC252700DA31CD /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Array.h; path = Vaidyanathan/Array.h; sourceTree = "<group>"; };
 		C9AC579014AC252700DA31CD /* Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Array.m; path = Vaidyanathan/Array.m; sourceTree = "<group>"; };
 		C9AC579114AC252700DA31CD /* MidiFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MidiFile.h; path = Vaidyanathan/MidiFile.h; sourceTree = "<group>"; };
 		C9AC579214AC252700DA31CD /* MidiFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MidiFile.m; path = Vaidyanathan/MidiFile.m; sourceTree = "<group>"; };
 		C9BDF7C4149D9DA20000D67A /* Chopin Ocean Etude.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = "Chopin Ocean Etude.mid"; path = "Resources/Chopin Ocean Etude.mid"; sourceTree = "<group>"; };
-		C9D6328814A05897005A6CC1 /* SheetMusicPaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SheetMusicPaper.png; path = Photoshop/SheetMusicPaper.png; sourceTree = "<group>"; };
 		C9D6329014A05E5E005A6CC1 /* MGScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGScore.h; path = Models/Scores/MGScore.h; sourceTree = "<group>"; };
 		C9D6329114A05E5E005A6CC1 /* MGScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGScore.m; path = Models/Scores/MGScore.m; sourceTree = "<group>"; };
 		C9D6329514A06B8B005A6CC1 /* MGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGHomeViewController.h; path = Controllers/HomeViewController/MGHomeViewController.h; sourceTree = "<group>"; };
@@ -180,11 +188,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C99A0A3B14D3BE7200A71551 /* SheetMusicPaper.png */,
 				C98771E414CC8EF900649C26 /* SingleStaff.png */,
 				C98BDE4B14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png */,
 				C98BDDFA14A13A4F00CB888F /* TrebleClefLogoBold.png */,
-				C9D6328814A05897005A6CC1 /* SheetMusicPaper.png */,
 				C9BDF7C4149D9DA20000D67A /* Chopin Ocean Etude.mid */,
+				C99A0A3D14D3BEE800A71551 /* BarLine.png */,
 				CEADEB49142DF5A2000601D5 /* SoundFonts */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* MetroGnomeiPad-Info.plist */,
@@ -215,6 +224,10 @@
 				C98771E114CC8C9300649C26 /* MGSingleStaffView.m */,
 				C987722E14CCE1B500649C26 /* MGDoubleStaffView.h */,
 				C987722F14CCE1B500649C26 /* MGDoubleStaffView.m */,
+				C99A0A3714D3BC8F00A71551 /* MGBarLineView.h */,
+				C99A0A3814D3BC8F00A71551 /* MGBarLineView.m */,
+				C99A0A3F14D3C4E100A71551 /* MGTimeSignatureView.h */,
+				C99A0A4014D3C4E100A71551 /* MGTimeSignatureView.m */,
 			);
 			name = "Musical Notation";
 			sourceTree = "<group>";
@@ -444,10 +457,11 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				CEADEB4B142DF5B3000601D5 /* ChoriumRevA.SF2 in Resources */,
 				C9BDF7C5149D9DA20000D67A /* Chopin Ocean Etude.mid in Resources */,
-				C9D6328914A05897005A6CC1 /* SheetMusicPaper.png in Resources */,
 				C98BDDFB14A13A4F00CB888F /* TrebleClefLogoBold.png in Resources */,
 				C98BDE4C14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png in Resources */,
 				C98771E514CC8EF900649C26 /* SingleStaff.png in Resources */,
+				C99A0A3C14D3BE7200A71551 /* SheetMusicPaper.png in Resources */,
+				C99A0A3E14D3BEE800A71551 /* BarLine.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +492,8 @@
 				C9AC579614AC252700DA31CD /* MidiFile.m in Sources */,
 				C98771E214CC8C9300649C26 /* MGSingleStaffView.m in Sources */,
 				C987723014CCE1B500649C26 /* MGDoubleStaffView.m in Sources */,
+				C99A0A3914D3BC8F00A71551 /* MGBarLineView.m in Sources */,
+				C99A0A4114D3C4E100A71551 /* MGTimeSignatureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

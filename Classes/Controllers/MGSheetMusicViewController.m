@@ -12,6 +12,7 @@
 
 #define ORIENTATION_PORTRAIT  CGRectMake(0,0,screenSize.width, screenSize.height)
 #define ORIENTATION_LANDSCAPE  CGRectMake(0,0,screenSize.height, screenSize.width)
+#define BORDER 20 //Size of border on screen
 
 @implementation MGSheetMusicViewController
 @synthesize sheetMusicView  = _sheetMusicView;
@@ -24,10 +25,6 @@
 
 -(id)initWithMGScore:(MGScore *)score {
     if (self = [super init]) {
-        CGSize screenSize = [UIScreen mainScreen].currentMode.size;
-        
-        self.sheetMusicView = [[MGSheetMusicView alloc]initWithFrame:
-                               ORIENTATION_LANDSCAPE];
         self.score = score;
     }
     
@@ -49,22 +46,27 @@
     //Set size parameters for staves
     
     
+    //Set SheetMusicView size
+    CGSize screenSize = [UIScreen mainScreen].currentMode.size; //used to define orientations
+    self.sheetMusicView = [[MGSheetMusicView alloc]initWithFrame:
+                           ORIENTATION_LANDSCAPE];
+    CGRect rect = CGRectMake(0, 0, 
+                             self.sheetMusicView.frame.size.width - BORDER,
+                             self.sheetMusicView.frame.size.height - BORDER);
+    
     //Determine type of staff layout
     if ([self.score.partsArray count] == 0) {
         NSLog(@"MGSMVC: displayAll score has no parts");
     }
-    if (1){//[self.score.partsArray count] == 1) {
-        CGRect rect = CGRectMake(0, 0, 
-                                 self.sheetMusicView.frame.size.width, 100);
-        MGSingleStaffView *staff = [[MGSingleStaffView alloc]initWithFrame:rect];
-        [self.sheetMusicView addSubview:staff];
+    else if (1){//[self.score.partsArray count] == 1) {        
+        [self.sheetMusicView displaySingleStaff:1];
     } 
     else if ([self.score.partsArray count] == 2) {
-        CGRect rect = CGRectMake(0, 0, 
-                                 self.sheetMusicView.frame.size.width, 100);
         MGDoubleStaffView *staff = [[MGDoubleStaffView alloc]initWithFrame:rect];
         [self.sheetMusicView addSubview:staff];
     }
+    
+    [self.sheetMusicView displayTimeSignature:self.score.timeSignature];
     
     
 }

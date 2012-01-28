@@ -9,8 +9,17 @@
 #import <UIKit/UIKit.h>
 #import "MGScore.h"
 
-@interface MGSheetMusicView : UIView
+@interface MGSheetMusicView : UIView {
+    MGScore *_score;
+    NSMutableArray *_staves; //array of staves held by the MGSheetMusicView
+}
+@property(nonatomic,retain) MGScore *score;
+@property(nonatomic,assign) NSMutableArray *staves;
 
--(void)display:(MGScore *)score;
+//-(void)display:(MGScore *)score;
+
+-(void)displaySingleStaff:(int)number;
+/** Displays time signature on all staves */
+-(void)displayTimeSignature;
 @end
 
