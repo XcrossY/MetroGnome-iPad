@@ -82,6 +82,11 @@
     [self.partsArray addObject:part];
 }
 
+/** Returns total number of measures in the score */
+-(int)numberOfMeasures {
+    return [self.timeSignature getMeasureForTime:self.totalPulses];
+}
+
 
 
 @end

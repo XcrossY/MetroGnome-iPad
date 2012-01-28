@@ -24,7 +24,6 @@
 		C99A0A3914D3BC8F00A71551 /* MGBarLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C99A0A3814D3BC8F00A71551 /* MGBarLineView.m */; };
 		C99A0A3C14D3BE7200A71551 /* SheetMusicPaper.png in Resources */ = {isa = PBXBuildFile; fileRef = C99A0A3B14D3BE7200A71551 /* SheetMusicPaper.png */; };
 		C99A0A3E14D3BEE800A71551 /* BarLine.png in Resources */ = {isa = PBXBuildFile; fileRef = C99A0A3D14D3BEE800A71551 /* BarLine.png */; };
-		C99A0A4114D3C4E100A71551 /* MGTimeSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = C99A0A4014D3C4E100A71551 /* MGTimeSignatureView.m */; };
 		C9A3E5B614955C8100399DC4 /* libbass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEADEAB4142DED65000601D5 /* libbass.a */; };
 		C9A3E5B714955C8400399DC4 /* libbassmidi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEADEAB6142DED66000601D5 /* libbassmidi.a */; };
 		C9AC579514AC252700DA31CD /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AC579014AC252700DA31CD /* Array.m */; };
@@ -75,8 +74,6 @@
 		C99A0A3814D3BC8F00A71551 /* MGBarLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGBarLineView.m; path = "Views/Musical Notation Views/MGBarLineView.m"; sourceTree = "<group>"; };
 		C99A0A3B14D3BE7200A71551 /* SheetMusicPaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SheetMusicPaper.png; path = Resources/SheetMusicPaper.png; sourceTree = "<group>"; };
 		C99A0A3D14D3BEE800A71551 /* BarLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BarLine.png; path = Resources/BarLine.png; sourceTree = "<group>"; };
-		C99A0A3F14D3C4E100A71551 /* MGTimeSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTimeSignatureView.h; path = "Views/Musical Notation Views/MGTimeSignatureView.h"; sourceTree = "<group>"; };
-		C99A0A4014D3C4E100A71551 /* MGTimeSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTimeSignatureView.m; path = "Views/Musical Notation Views/MGTimeSignatureView.m"; sourceTree = "<group>"; };
 		C9AC578F14AC252700DA31CD /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Array.h; path = Vaidyanathan/Array.h; sourceTree = "<group>"; };
 		C9AC579014AC252700DA31CD /* Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Array.m; path = Vaidyanathan/Array.m; sourceTree = "<group>"; };
 		C9AC579114AC252700DA31CD /* MidiFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MidiFile.h; path = Vaidyanathan/MidiFile.h; sourceTree = "<group>"; };
@@ -226,8 +223,6 @@
 				C987722F14CCE1B500649C26 /* MGDoubleStaffView.m */,
 				C99A0A3714D3BC8F00A71551 /* MGBarLineView.h */,
 				C99A0A3814D3BC8F00A71551 /* MGBarLineView.m */,
-				C99A0A3F14D3C4E100A71551 /* MGTimeSignatureView.h */,
-				C99A0A4014D3C4E100A71551 /* MGTimeSignatureView.m */,
 			);
 			name = "Musical Notation";
 			sourceTree = "<group>";
@@ -493,7 +488,6 @@
 				C98771E214CC8C9300649C26 /* MGSingleStaffView.m in Sources */,
 				C987723014CCE1B500649C26 /* MGDoubleStaffView.m in Sources */,
 				C99A0A3914D3BC8F00A71551 /* MGBarLineView.m in Sources */,
-				C99A0A4114D3C4E100A71551 /* MGTimeSignatureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,7 +29,7 @@
 @property(nonatomic,assign) int quarterNote; //redundant with time signature
 @property(nonatomic,assign) int totalPulses;
 
-//Initialization functions
+/** Initialization functions */
 -(id)initWithCapacity: (NSInteger)capacity
      andTimeSignature: (MGTimeSignature *)timeSignature;
 -(id)initWithCapacity: (NSInteger)capacity;
@@ -39,6 +39,9 @@
 
 -(id)initWithMidiFile: (MidiFile *)midiFile;
 -(id)initWithFileName: (NSString *)fileName;
+
+/** Instance methods */
+-(int)numberOfMeasures; /** Returns total number of measures in the score */
 
 
 @end

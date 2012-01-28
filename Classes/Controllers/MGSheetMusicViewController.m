@@ -12,7 +12,8 @@
 
 #define ORIENTATION_PORTRAIT  CGRectMake(0,0,screenSize.width, screenSize.height)
 #define ORIENTATION_LANDSCAPE  CGRectMake(0,0,screenSize.height, screenSize.width)
-#define BORDER 20 //Size of border on screen
+#define BORDERX 20 //Size of border on screen
+#define BORDERY 20
 
 @implementation MGSheetMusicViewController
 @synthesize sheetMusicView  = _sheetMusicView;
@@ -51,8 +52,12 @@
     self.sheetMusicView = [[MGSheetMusicView alloc]initWithFrame:
                            ORIENTATION_LANDSCAPE];
     CGRect rect = CGRectMake(0, 0, 
-                             self.sheetMusicView.frame.size.width - BORDER,
-                             self.sheetMusicView.frame.size.height - BORDER);
+                             self.sheetMusicView.frame.size.width - BORDERX,
+                             self.sheetMusicView.frame.size.height - BORDERY);
+    
+    //Determine number of measures in score
+    [self.score measureLength];
+    
     
     //Determine type of staff layout
     if ([self.score.partsArray count] == 0) {
@@ -66,7 +71,7 @@
         [self.sheetMusicView addSubview:staff];
     }
     
-    [self.sheetMusicView displayTimeSignature:self.score.timeSignature];
+    [self.sheetMusicView displayTimeSignature];
     
     
 }

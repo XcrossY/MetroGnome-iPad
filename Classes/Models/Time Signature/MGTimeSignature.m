@@ -27,14 +27,9 @@
 @synthesize quarter     = _quarter;
 @synthesize measure     = _measure;
 @synthesize tempo       = _tempo; 
+@synthesize view        = _view;
 
-//Rewrite to include accurate quarter and tempo
-+(id)commonTime {
-    return [[[MGTimeSignature alloc]initWithNumerator:4
-                                       andDenominator:4 
-                                           andQuarter:240
-                                             andTempo:600] autorelease];
-}
+/******************************************************************************/
 
 -(void)dealloc {
     [super dealloc];
@@ -67,6 +62,19 @@
     
     self.measure = self.numerator * beat;
     return self;
+}
+
+/** Init UIImageView */
+-(void)initView {
+    if (self.numerator == 4 && self.denominator == 4) {
+        self.view = [[UIImageView alloc]initWithImage:
+                     [UIImage imageNamed:@"MG44.png"]];
+    }
+    else {
+        self.view = [[UIImageView alloc]initWithImage:
+                     [UIImage imageNamed:@"standIn.png"]];
+        NSLog(@"MGTimeSignature: No image");
+    }
 }
 
 /** Return which measure the given time (in pulses) belongs to. */
@@ -114,7 +122,7 @@
 }
 
 
-/** Return the time period (in pulses) the the given duration spans */
+/** Return the time period (in pulses) that the given duration spans */
 - (int)durationToTime:(NoteDuration)dur {
     int eighth = self.quarter/2;
     int sixteenth = eighth/2;
@@ -150,6 +158,17 @@
                    self.numerator, self.denominator, 
                    self.quarter, self.tempo ];
     return s;
+}
+
+#pragma mark
+#pragma Class Methods
+
+//Rewrite to include accurate quarter and tempo
++(id)commonTime {
+    return [[[MGTimeSignature alloc]initWithNumerator:4
+                                       andDenominator:4 
+                                           andQuarter:240
+                                             andTempo:600] autorelease];
 }
 
 /** Return the given duration as a string */

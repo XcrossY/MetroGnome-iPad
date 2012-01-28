@@ -8,10 +8,9 @@
 
 #import "MGSingleStaffView.h"
 #import "MGBarLineView.h"
-#import "MGTimeSignatureView.h"
 
 @implementation MGSingleStaffView
-@synthesize timeSignatureView = _timeSignatureView;
+@synthesize timeSignature = _timeSignature;
 
 //Takes in frame size in which to display staff
 - (id)initWithFrame:(CGRect)frame {
@@ -26,11 +25,10 @@
     return self;
 }
 
--(void)displayTimeSignature:(MGTimeSignature *)timeSignature {
-    MGTimeSignatureView *view = [[MGTimeSignatureView alloc]
-                                 initWithTimeSignature:timeSignature];
-    view.center = CGPointMake(0.0, self.center.y);
-    [self addSubview:view];
+-(void)displayTimeSignature {
+    [self.timeSignature initView];
+    self.timeSignature.view.center = CGPointMake(0.0, self.center.y);
+    [self addSubview:self.timeSignature.view];
 }
 
 @end

@@ -10,7 +10,6 @@
 #import "MGScore.h"
 #import "MGSingleStaffView.h"
 #import "MGBarLineView.h"
-#import "MGTimeSignatureView.h"
 
 #define STAFFHEIGHT 256
 //Amount of space between staves and edge of frame
@@ -49,7 +48,8 @@
 /** Displays time signature on all staves */
 -(void)displayTimeSignature {
     for (int i = 0; i < [self.staves count]; i++) {
-        [[self.staves objectAtIndex:i] displayTimeSignature:self.score.timeSignature];
+        [[self.staves objectAtIndex:i] displayTimeSignature];
+        [[self.staves objectAtIndex:i] displayTimeSignature];
     }
 }
 

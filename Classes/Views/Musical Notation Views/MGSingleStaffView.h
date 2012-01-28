@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "MGTimeSignature.h"
-#import "MGTimeSignatureView.h"
+
 
 @interface MGSingleStaffView : UIImageView {
-    MGTimeSignatureView *_timeSignatureView;
+    MGTimeSignature *_timeSignature;
 }
-@property(nonatomic,retain) MGTimeSignatureView *timeSignatureView;
+@property(nonatomic,retain) MGTimeSignature *timeSignature;
 
--(void)displayTimeSignature:(MGTimeSignature *)timeSignature; 
+-(void)displayTimeSignature; 
 
 @end
