@@ -62,6 +62,7 @@
             MidiEvent *midiEvent = [eventArray get:i];
             if ([midiEvent eventFlag] == EventNoteOn && [midiEvent velocity] >= 0)
             {
+                //Init note and add to part
                 MGNote *note = [[MGNote alloc]initWithMidiEvent:midiEvent];
                 [self.notesArray addObject:note];
             }

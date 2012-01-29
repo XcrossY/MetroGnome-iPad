@@ -63,7 +63,7 @@
 
 -(void)test {
     //[self testScale];
-    [self testMIDIFile];
+    //[self testMIDIFile];
     //[self writeMIDI:nil];
     //[self loadMIDI:nil];
     //[self testVaidyanathan];

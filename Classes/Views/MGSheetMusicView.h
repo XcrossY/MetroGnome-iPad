@@ -18,8 +18,8 @@
 
 //-(void)display:(MGScore *)score;
 
--(void)displaySingleStaff:(int)number;
-/** Displays time signature on all staves */
--(void)displayTimeSignature;
+
+-(void)displaySingleStaff:(int)number;  /** Displays number of MGSingleStaff lines */
+-(void)displayTimeSignature;    /** Displays time signature on all staves */
 @end
 

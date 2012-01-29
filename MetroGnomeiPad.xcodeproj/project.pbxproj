@@ -63,6 +63,7 @@
 		C9551E88149F01F300836A6D /* MGSheetMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSheetMusicViewController.h; path = Controllers/MGSheetMusicViewController.h; sourceTree = "<group>"; };
 		C9551E89149F01F300836A6D /* MGSheetMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSheetMusicViewController.m; path = Controllers/MGSheetMusicViewController.m; sourceTree = "<group>"; };
 		C968C8D914932103005C1FD1 /* MGSoundFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSoundFont.m; path = Models/SoundFonts/MGSoundFont.m; sourceTree = "<group>"; };
+		C96AFECE14D4FC46001B9F71 /* Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Options.h; path = Vaidyanathan/Options.h; sourceTree = "<group>"; };
 		C98771E014CC8C9300649C26 /* MGSingleStaffView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSingleStaffView.h; path = "Views/Musical Notation Views/MGSingleStaffView.h"; sourceTree = "<group>"; };
 		C98771E114CC8C9300649C26 /* MGSingleStaffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSingleStaffView.m; path = "Views/Musical Notation Views/MGSingleStaffView.m"; sourceTree = "<group>"; };
 		C98771E414CC8EF900649C26 /* SingleStaff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SingleStaff.png; path = Resources/SingleStaff.png; sourceTree = "<group>"; };
@@ -243,6 +244,7 @@
 				C9AC579014AC252700DA31CD /* Array.m */,
 				C9AC579114AC252700DA31CD /* MidiFile.h */,
 				C9AC579214AC252700DA31CD /* MidiFile.m */,
+				C96AFECE14D4FC46001B9F71 /* Options.h */,
 			);
 			name = Vaidyanathan;
 			sourceTree = "<group>";

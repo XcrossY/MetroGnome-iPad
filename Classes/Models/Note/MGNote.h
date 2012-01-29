@@ -23,6 +23,8 @@
     u_char  eventFlag;     /** NoteOn, NoteOff, etc.  Full list is in class MidiFile */
     //Needs a channel 
     
+    NSInteger   _measureNumber; /** The measure number in the score */
+    
     NSInteger   _velocity; /** The volume of the note */   
     
     u_char  instrument;    /** The instrument */
@@ -45,12 +47,16 @@
 @property(nonatomic,assign) NSInteger   duration;
 @property(nonatomic,assign) NSInteger   startTime;
 @property(nonatomic,assign) NSInteger   velocity;
+@property(nonatomic,assign) NSInteger   measureNumber;
 
+/*
 -(id)initWithPitchClass:(NSInteger)pitchClass
                  octave:(NSInteger)octave
                duration:(NSInteger)duration;
+*/
 
--(id)initWithMidiEvent:(MidiEvent *)midiEvent;
+
+-(id)initWithMidiEvent:(MidiEvent *)midiEvent; //Create MGNote from MidiEvent
 
 //Play an individual note (not a chord). Handles on/off
 -(void)play:(HSTREAM)stream;

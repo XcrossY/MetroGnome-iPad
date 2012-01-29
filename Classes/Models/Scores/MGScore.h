@@ -41,7 +41,7 @@
 -(id)initWithFileName: (NSString *)fileName;
 
 /** Instance methods */
--(int)numberOfMeasures; /** Returns total number of measures in the score */
+-(int)totalMeasures; /** Returns total number of measures in the score */
 
 
 @end

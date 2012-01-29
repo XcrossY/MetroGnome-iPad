@@ -15,16 +15,18 @@
 
 
 @implementation MGNote
-@synthesize pitchClass  = _pitchClass;
-@synthesize octave      = _octave;
-@synthesize duration    = _duration;
-@synthesize startTime   = _startTime;
-@synthesize velocity    = _velocity;
+@synthesize pitchClass      = _pitchClass;
+@synthesize octave          = _octave;
+@synthesize duration        = _duration;
+@synthesize startTime       = _startTime;
+@synthesize velocity        = _velocity;
+@synthesize measureNumber   = _measureNumber;
 
 -(void)dealloc {
     [super dealloc];
 }
 
+/*
 -(id)initWithPitchClass:(NSInteger)pitchClass
                  octave:(NSInteger)octave
                duration:(NSInteger)duration {
@@ -44,9 +46,8 @@
             self.duration   = duration;
         }
     }
-    
     return self;
-}
+}*/
 
 -(id)initWithMidiEvent:(MidiEvent *)midiEvent {
     if (self = [super init]) {

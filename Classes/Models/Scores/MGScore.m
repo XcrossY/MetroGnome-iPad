@@ -61,8 +61,17 @@
         for (int i = 0; i < [[midiFile events] count]; i++) {
             Array *trackArray = [[midiFile events] get:i];
             MGPart *part = [[MGPart alloc]initWithMidiEventArray:trackArray];
+            
+            //If part is legitimate, add to score
             if (part != nil && [part.notesArray count] != 0) {
-                [self.partsArray addObject:part];   
+                [self.partsArray addObject:part];
+                
+                //Once part is added, go through and modify
+                for (int j = 0; j < [part.notesArray count]; j++) {
+                    MGNote *note = [part.notesArray objectAtIndex:j];
+                    note.measureNumber = 
+                        [self.timeSignature getMeasureForTime:note.startTime];
+                }
             }
         }  
     }
@@ -83,7 +92,7 @@
 }
 
 /** Returns total number of measures in the score */
--(int)numberOfMeasures {
+-(int)totalMeasures {
     return [self.timeSignature getMeasureForTime:self.totalPulses];
 }
 
