@@ -16,8 +16,9 @@
 @property(nonatomic,retain) MGScore *score;
 @property(nonatomic,assign) NSMutableArray *staves;
 
-//-(void)display:(MGScore *)score;
 
+/** Displays sheet music with parameters defined in options */
+-(void)displayWithOptions:(SheetMusicOptions)options; 
 
 -(void)displaySingleStaff:(int)number;  /** Displays number of MGSingleStaff lines */
 -(void)displayTimeSignature;    /** Displays time signature on all staves */

@@ -78,65 +78,81 @@
         }
         
         //Fill staves with notes from score
-        int currentMeasure = 0;
-        int currentNote = 0;
-        BOOL complete = FALSE;
-        MGSingleStaffView *currentStaff = [self.sheetMusicView.staves objectAtIndex:0];
-        while (!complete) {
-            MGNote *note = [part.notesArray objectAtIndex:currentNote];
-            if (note.measureNumber == currentMeasure) {
-                [currentStaff.noteArray insertObject:note atIndex:currentMeasure];
+        int currentPosition = 0;
+        for (int i = 0; i < [part.notesArray count]; i++) {
+            MGNote *currentNote = [part.notesArray objectAtIndex:i];
+            
+            /** Measure numbers start at 1, per normal musical notation. Array indices start at 0 */
+            MGSingleStaffView *currentMeasure = 
+            [self.sheetMusicView.staves objectAtIndex:currentNote.measureNumber-1];
+            
+            /** Insert currentNote into correct measure at appropriate
+             position */
+            if ([currentMeasure.noteArray count]==0) {
+                currentPosition = 0; //If measure is empty, reset counter
             }
-            //If finished with current measure, increment 
-            else if (note.measureNumber == currentMeasure+1) { 
-                currentMeasure++;
-                MGSingleStaffView *currentStaff = [self.sheetMusicView.staves objectAtIndex:currentMeasure];
-                [currentStaff.noteArray insertObject:note atIndex:currentMeasure];
-            }
-            else {
-               NSLog(@"SheetMusicViewController: displayAll error"); 
-            }
-            currentNote++;
+            [currentMeasure.noteArray insertObject:currentNote atIndex:currentPosition];
+            currentPosition++;
         }
         
-        
-        //Now need to actually display staves
-        
-        
-        
-        
-        
-        
-        
-        
-        //Create all MGSingleStaffViews
-        /*for (int i = 0; i < measureTotal; i++) { //while loop?
-            BOOL sameMeasure = TRUE;
-            while (sameMeasure) {
-                int j = 0;
-            }
-            MGSingleStaffView *staff = [[MGSingleStaffView alloc]initWithNotes:noteArray];
-            //MGSingleStaffView *staff = [[MGSingleStaffView alloc]initWithFrame:<#(CGRect)#>];
-            
-            //Enlarge sheet music view bounds if necessary
-            if (1) {
-                self.sheetMusicView.bounds = CGRectMake(0, 0, 
-                                                        self.sheetMusicView.bounds.size.width, 
-                                                        self.sheetMusicView.bounds.size.height);//+staffheight
-            }
-        }*/
-        
-        
-        [self.sheetMusicView displaySingleStaff:measureTotal];
-    } 
+        //Display all measures
+        [self.sheetMusicView displayWithOptions:self.sheetMusicOptions];
+    
+    }
     else if ([self.score.partsArray count] == 2) {
         //MGDoubleStaffView *staff = [[MGDoubleStaffView alloc]initWithFrame:rect];
         //[self.sheetMusicView addSubview:staff];
+        NSLog(@"Double staves currently unsupported");
     }
     
-    [self.sheetMusicView displayTimeSignature];
+    //[self.sheetMusicView displayTimeSignature];
     
     
 }
+
+/**int currentMeasure = 1; //Measure numbers start at 1
+ int currentNote = 0;
+ BOOL complete = FALSE;
+ MGSingleStaffView *currentStaff = [self.sheetMusicView.staves objectAtIndex:0];
+ while (!complete) {
+ MGNote *note = [part.notesArray objectAtIndex:currentNote];
+ if (note.measureNumber == currentMeasure) {
+ [currentStaff.noteArray insertObject:note atIndex:currentMeasure];
+ }
+ //If finished with current measure, increment 
+ else if (note.measureNumber == currentMeasure+1) { 
+ currentMeasure++;
+ MGSingleStaffView *currentStaff = [self.sheetMusicView.staves objectAtIndex:currentMeasure];
+ [currentStaff.noteArray insertObject:note atIndex:currentMeasure];
+ }
+ else {
+ NSLog(@"SheetMusicViewController: displayAll error"); 
+ }
+ currentNote++;
+ }*/
+
+
+
+//Now need to actually display staves
+
+//Create all MGSingleStaffViews
+/*for (int i = 0; i < measureTotal; i++) { //while loop?
+ BOOL sameMeasure = TRUE;
+ while (sameMeasure) {
+ int j = 0;
+ }
+ MGSingleStaffView *staff = [[MGSingleStaffView alloc]initWithNotes:noteArray];
+ //MGSingleStaffView *staff = [[MGSingleStaffView alloc]initWithFrame:<#(CGRect)#>];
+ 
+ //Enlarge sheet music view bounds if necessary
+ if (1) {
+ self.sheetMusicView.bounds = CGRectMake(0, 0, 
+ self.sheetMusicView.bounds.size.width, 
+ self.sheetMusicView.bounds.size.height);//+staffheight
+ }
+ }*/
+
+
+
 
 @end

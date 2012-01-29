@@ -53,10 +53,10 @@
     }
 }
 
-/**-(void)display:(MGPart *)score {
-    
-}*/
-
+/** Displays sheet music with parameters defined in options */
+-(void)displayWithOptions:(SheetMusicOptions)options {
+    NSLog(@"displayed");
+}
 
 
 
