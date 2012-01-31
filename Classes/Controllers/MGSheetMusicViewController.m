@@ -21,9 +21,7 @@
 @implementation MGSheetMusicViewController
 @synthesize sheetMusicView  = _sheetMusicView;
 @synthesize score           = _score;
-@synthesize midiSoundOptions = _midiSoundOptions;
-@synthesize sheetMusicOptions = _sheetMusicOptions;
-
+@synthesize options = _options;
 -(void)dealloc {
     self.sheetMusicView = nil;
     [super dealloc];
@@ -32,6 +30,7 @@
 -(id)initWithMGScore:(MGScore *)score {
     if (self = [super init]) {
         self.score = score;
+        self.options = [[MGOptions alloc]init];
     }
     
     return self;
@@ -73,11 +72,14 @@
                                       initWithCapacity:measureTotal];
         MGPart *part = [self.score.partsArray objectAtIndex:0];
         for (int j = 0; j < measureTotal; j++) {
-            [self.sheetMusicView.staves insertObject:[[MGSingleStaffView alloc]init] 
-                                             atIndex:j];
+            MGSingleStaffView *staff = [[MGSingleStaffView alloc]init];
+            [self.sheetMusicView.staves insertObject:staff atIndex:j];
+            
+            /* [self.sheetMusicView.staves insertObject:[[MGSingleStaffView alloc]init] 
+                                             atIndex:j]; */
         }
         
-        //Fill staves with notes from score
+        /** Fill staves with notes from score */
         int currentPosition = 0;
         for (int i = 0; i < [part.notesArray count]; i++) {
             MGNote *currentNote = [part.notesArray objectAtIndex:i];
@@ -95,9 +97,13 @@
             currentPosition++;
         }
         
-        //Display all measures
-        [self.sheetMusicView displayWithOptions:self.sheetMusicOptions];
-    
+        /** Configure options */
+        self.options.displayAll = TRUE;
+        self.options.normalStaffSize = TRUE;
+        self.options.timeSignature = self.score.timeSignature;
+        
+        //Display!
+        [self.sheetMusicView displayWithOptions:self.options];
     }
     else if ([self.score.partsArray count] == 2) {
         //MGDoubleStaffView *staff = [[MGDoubleStaffView alloc]initWithFrame:rect];
@@ -105,7 +111,10 @@
         NSLog(@"Double staves currently unsupported");
     }
     
-    //[self.sheetMusicView displayTimeSignature];
+    /** Once viewcontroller has determined all properties, it can send
+     self.sheetMusicView this message, which will dynamically configure
+     itslelf according to self.options */
+    [self.sheetMusicView displayWithOptions:self.options];
     
     
 }

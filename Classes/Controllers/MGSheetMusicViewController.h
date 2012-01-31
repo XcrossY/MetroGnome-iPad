@@ -9,19 +9,19 @@
 #import <UIKit/UIKit.h>
 #import "MGSheetMusicView.h"
 #import "MGScore.h"
+#import "MGOptions.h"
 
 
 @interface MGSheetMusicViewController : UIViewController {
     MGSheetMusicView *_sheetMusicView;
     MGScore *_score;
-    MidiSoundOptions _midiSoundOptions;
-    SheetMusicOptions _sheetMusicOptions;
+    MGOptions *_options;
 }
 @property(nonatomic,retain) MGSheetMusicView *sheetMusicView;
 @property(nonatomic,retain) MGScore *score;
-@property(readwrite,assign) MidiSoundOptions midiSoundOptions;
-@property(readwrite,assign) SheetMusicOptions sheetMusicOptions;
+@property(readwrite,assign) MGOptions *options;
 
+/** Assigns score as property of the view controller */
 -(id)initWithMGScore:(MGScore *)score;
 
 /** Displays all parts of the MGScore */

@@ -14,6 +14,7 @@
 #define PITCH_CLASS_Dsharp  3
 #define PITCH_CLASS_Eflat   3
 #define PITCH_CLASS_E       4
+#define PITCH_CLASS_Esharp  5
 #define PITCH_CLASS_F       5
 #define PITCH_CLASS_Fsharp  6
 #define PITCH_CLASS_Gflat   6

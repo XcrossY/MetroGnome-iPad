@@ -17,6 +17,7 @@
 #import "MGScore.h"
 #import "MGSheetMusicView.h"
 #import "MGSheetMusicViewController.h"
+#import "MGSingleStaffView.h"
 
 
 #import "MidiFile.h"
@@ -264,10 +265,24 @@
     self.view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 960, 1024)];
     self.view.autoresizesSubviews = YES;
     
-    MGSheetMusicViewController *sheetMusicController = [[MGSheetMusicViewController alloc]initWithMGScore:score];
-    [sheetMusicController displayAll];
-    [self.view addSubview:sheetMusicController.sheetMusicView];
     
+    MGSheetMusicViewController *sheetMusicController = [[MGSheetMusicViewController alloc]initWithMGScore:score];
+    //[sheetMusicController displayAll];
+    [self.view addSubview:sheetMusicController.sheetMusicView];
+       
+    // Test a single staff view
+    MGSingleStaffView *staff = [[MGSingleStaffView alloc]initWithFrame:CGRectMake(100, 100, 300, 300)];
+    [self.view addSubview:staff]; 
+    
+    MGPart *part = [score.partsArray objectAtIndex:0];
+    MGNote *note = [part.notesArray objectAtIndex:0];
+    //[note initImageWithValue:Quarter];
+    note.image = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"QuarterNote.png"]];
+    //note.image.frame = CGRectMake(100,100,100,100);
+    [staff addSubview:note.image];
+    
+    //UIImageView *test = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"QuarterNote.png"]];
+    //[self.view addSubview:test];
     
      NSLog(@"testMG complete");
 }

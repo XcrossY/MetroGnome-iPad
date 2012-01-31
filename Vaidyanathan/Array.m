@@ -232,6 +232,45 @@ static int intcmp(const void *v1, const void* v2) {
     mergesort(values, size, sizeof(int), intcmp);
 }
 
+/** Finds maximum value in the IntArray */
+-(int)maximum {
+    int maximum = [self get:0];
+    for (int i = 1; i < size; i++) {
+        int num = [self get:i];
+        if (num >= maximum) {
+            maximum = num; 
+        }
+    }
+    return maximum;
+}
+
+
+/** Goes through the IntArray and returns the index 
+ of the maximum value. Ties go to the later indices */
+-(int)indexOfMaximum {
+    int index = 0;
+    int maximum = [self get:0];
+    for (int i = 1; i < size; i++) {
+        int num = [self get:i];
+        if (num >= maximum) {
+            index = i; 
+        }
+    }
+    
+    return index;
+}
+
+/** Sum of all integers in IntArray */
+-(int)totalValue {
+    int total = 0;
+    for (int i = 0; i < size; i++) {
+        total = total + [self get:i];
+    }
+    
+    return total;
+}
+
+
 
 @end
 

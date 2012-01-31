@@ -24,6 +24,17 @@
 		C99A0A3914D3BC8F00A71551 /* MGBarLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C99A0A3814D3BC8F00A71551 /* MGBarLineView.m */; };
 		C99A0A3C14D3BE7200A71551 /* SheetMusicPaper.png in Resources */ = {isa = PBXBuildFile; fileRef = C99A0A3B14D3BE7200A71551 /* SheetMusicPaper.png */; };
 		C99A0A3E14D3BEE800A71551 /* BarLine.png in Resources */ = {isa = PBXBuildFile; fileRef = C99A0A3D14D3BEE800A71551 /* BarLine.png */; };
+		C9A1BA8514D6041500FF5E5A /* MGOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A1BA8414D6041500FF5E5A /* MGOptions.m */; };
+		C9A1BA8714D7B73500FF5E5A /* QuarterNote.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A1BA8614D7B73500FF5E5A /* QuarterNote.png */; };
+		C9A1BA9114D7B74A00FF5E5A /* EighthNote.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A1BA8814D7B74A00FF5E5A /* EighthNote.png */; };
+		C9A1BA9214D7B74A00FF5E5A /* EndBarLine.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A1BA8914D7B74A00FF5E5A /* EndBarLine.png */; };
+		C9A1BA9314D7B74A00FF5E5A /* Flat.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A1BA8A14D7B74A00FF5E5A /* Flat.png */; };
+		C9A1BA9414D7B74A00FF5E5A /* HalfNote.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A1BA8B14D7B74A00FF5E5A /* HalfNote.png */; };
+		C9A1BA9514D7B74A00FF5E5A /* Natural.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A1BA8C14D7B74A00FF5E5A /* Natural.png */; };
+		C9A1BA9614D7B74A00FF5E5A /* Sharp.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A1BA8D14D7B74A00FF5E5A /* Sharp.png */; };
+		C9A1BA9714D7B74A00FF5E5A /* SixteenthNote.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A1BA8E14D7B74A00FF5E5A /* SixteenthNote.png */; };
+		C9A1BA9814D7B74A00FF5E5A /* TrebleClef.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A1BA8F14D7B74A00FF5E5A /* TrebleClef.png */; };
+		C9A1BA9914D7B74A00FF5E5A /* WholeNote.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A1BA9014D7B74A00FF5E5A /* WholeNote.png */; };
 		C9A3E5B614955C8100399DC4 /* libbass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEADEAB4142DED65000601D5 /* libbass.a */; };
 		C9A3E5B714955C8400399DC4 /* libbassmidi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEADEAB6142DED66000601D5 /* libbassmidi.a */; };
 		C9AC579514AC252700DA31CD /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AC579014AC252700DA31CD /* Array.m */; };
@@ -75,6 +86,18 @@
 		C99A0A3814D3BC8F00A71551 /* MGBarLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGBarLineView.m; path = "Views/Musical Notation Views/MGBarLineView.m"; sourceTree = "<group>"; };
 		C99A0A3B14D3BE7200A71551 /* SheetMusicPaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SheetMusicPaper.png; path = Resources/SheetMusicPaper.png; sourceTree = "<group>"; };
 		C99A0A3D14D3BEE800A71551 /* BarLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BarLine.png; path = Resources/BarLine.png; sourceTree = "<group>"; };
+		C9A1BA8314D6041500FF5E5A /* MGOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGOptions.h; path = Models/Options/MGOptions.h; sourceTree = "<group>"; };
+		C9A1BA8414D6041500FF5E5A /* MGOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGOptions.m; path = Models/Options/MGOptions.m; sourceTree = "<group>"; };
+		C9A1BA8614D7B73500FF5E5A /* QuarterNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QuarterNote.png; path = Resources/QuarterNote.png; sourceTree = "<group>"; };
+		C9A1BA8814D7B74A00FF5E5A /* EighthNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EighthNote.png; path = Resources/EighthNote.png; sourceTree = "<group>"; };
+		C9A1BA8914D7B74A00FF5E5A /* EndBarLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EndBarLine.png; path = Resources/EndBarLine.png; sourceTree = "<group>"; };
+		C9A1BA8A14D7B74A00FF5E5A /* Flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Flat.png; path = Resources/Flat.png; sourceTree = "<group>"; };
+		C9A1BA8B14D7B74A00FF5E5A /* HalfNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HalfNote.png; path = Resources/HalfNote.png; sourceTree = "<group>"; };
+		C9A1BA8C14D7B74A00FF5E5A /* Natural.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Natural.png; path = Resources/Natural.png; sourceTree = "<group>"; };
+		C9A1BA8D14D7B74A00FF5E5A /* Sharp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sharp.png; path = Resources/Sharp.png; sourceTree = "<group>"; };
+		C9A1BA8E14D7B74A00FF5E5A /* SixteenthNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SixteenthNote.png; path = Resources/SixteenthNote.png; sourceTree = "<group>"; };
+		C9A1BA8F14D7B74A00FF5E5A /* TrebleClef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrebleClef.png; path = Resources/TrebleClef.png; sourceTree = "<group>"; };
+		C9A1BA9014D7B74A00FF5E5A /* WholeNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WholeNote.png; path = Resources/WholeNote.png; sourceTree = "<group>"; };
 		C9AC578F14AC252700DA31CD /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Array.h; path = Vaidyanathan/Array.h; sourceTree = "<group>"; };
 		C9AC579014AC252700DA31CD /* Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Array.m; path = Vaidyanathan/Array.m; sourceTree = "<group>"; };
 		C9AC579114AC252700DA31CD /* MidiFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MidiFile.h; path = Vaidyanathan/MidiFile.h; sourceTree = "<group>"; };
@@ -186,6 +209,16 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C9A1BA8814D7B74A00FF5E5A /* EighthNote.png */,
+				C9A1BA8914D7B74A00FF5E5A /* EndBarLine.png */,
+				C9A1BA8A14D7B74A00FF5E5A /* Flat.png */,
+				C9A1BA8B14D7B74A00FF5E5A /* HalfNote.png */,
+				C9A1BA8C14D7B74A00FF5E5A /* Natural.png */,
+				C9A1BA8D14D7B74A00FF5E5A /* Sharp.png */,
+				C9A1BA8E14D7B74A00FF5E5A /* SixteenthNote.png */,
+				C9A1BA8F14D7B74A00FF5E5A /* TrebleClef.png */,
+				C9A1BA9014D7B74A00FF5E5A /* WholeNote.png */,
+				C9A1BA8614D7B73500FF5E5A /* QuarterNote.png */,
 				C99A0A3B14D3BE7200A71551 /* SheetMusicPaper.png */,
 				C98771E414CC8EF900649C26 /* SingleStaff.png */,
 				C98BDE4B14A1A45900CB888F /* SheetMusicPaperLogoPortrait.png */,
@@ -235,6 +268,15 @@
 				C9551E89149F01F300836A6D /* MGSheetMusicViewController.m */,
 			);
 			name = SheetMusicViewController;
+			sourceTree = "<group>";
+		};
+		C9A1BA8114D603F300FF5E5A /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				C9A1BA8314D6041500FF5E5A /* MGOptions.h */,
+				C9A1BA8414D6041500FF5E5A /* MGOptions.m */,
+			);
+			name = Options;
 			sourceTree = "<group>";
 		};
 		C9AC578A14AC23F700DA31CD /* Vaidyanathan */ = {
@@ -346,6 +388,7 @@
 				CECE12F01433E4DC0063EC3F /* Notes */,
 				CECE12CD1433E3C80063EC3F /* Key Signature */,
 				CE08656814497D6700FB2CE3 /* Time Signature */,
+				C9A1BA8114D603F300FF5E5A /* Options */,
 				CECE12CC1433E3BC0063EC3F /* Lesson */,
 			);
 			name = Models;
@@ -459,6 +502,16 @@
 				C98771E514CC8EF900649C26 /* SingleStaff.png in Resources */,
 				C99A0A3C14D3BE7200A71551 /* SheetMusicPaper.png in Resources */,
 				C99A0A3E14D3BEE800A71551 /* BarLine.png in Resources */,
+				C9A1BA8714D7B73500FF5E5A /* QuarterNote.png in Resources */,
+				C9A1BA9114D7B74A00FF5E5A /* EighthNote.png in Resources */,
+				C9A1BA9214D7B74A00FF5E5A /* EndBarLine.png in Resources */,
+				C9A1BA9314D7B74A00FF5E5A /* Flat.png in Resources */,
+				C9A1BA9414D7B74A00FF5E5A /* HalfNote.png in Resources */,
+				C9A1BA9514D7B74A00FF5E5A /* Natural.png in Resources */,
+				C9A1BA9614D7B74A00FF5E5A /* Sharp.png in Resources */,
+				C9A1BA9714D7B74A00FF5E5A /* SixteenthNote.png in Resources */,
+				C9A1BA9814D7B74A00FF5E5A /* TrebleClef.png in Resources */,
+				C9A1BA9914D7B74A00FF5E5A /* WholeNote.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +543,7 @@
 				C98771E214CC8C9300649C26 /* MGSingleStaffView.m in Sources */,
 				C987723014CCE1B500649C26 /* MGDoubleStaffView.m in Sources */,
 				C99A0A3914D3BC8F00A71551 /* MGBarLineView.m in Sources */,
+				C9A1BA8514D6041500FF5E5A /* MGOptions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

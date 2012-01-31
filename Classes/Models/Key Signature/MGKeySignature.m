@@ -17,7 +17,7 @@
 #pragma mark Inits
 
 -(void)dealloc {
-    self.tonic = nil;
+    [self.tonic release];
     [super release];
 }
 

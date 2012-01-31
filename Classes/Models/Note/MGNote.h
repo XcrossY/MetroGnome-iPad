@@ -9,13 +9,17 @@
 #import <Foundation/Foundation.h>
 #import "bassmidi.h"
 #import "MidiFile.h"
+#import "MGTimeSignature.h" //For NoteDuration definition
 
 
 @interface MGNote : NSObject {
     NSInteger   _pitchClass;
     NSInteger   _octave;
-    NSInteger   _duration;
+    NSInteger   _duration; /** in pulses (I think) */
     NSInteger   _startTime;
+    UIImageView *_image;   /** Appropriate image for note value */
+    CGPoint     *_imageCenter;
+    
     
     int     deltaTime;     /** The time between the previous event and this on */
     int     startTime;     /** The absolute time this event occurs */
@@ -26,6 +30,8 @@
     NSInteger   _measureNumber; /** The measure number in the score */
     
     NSInteger   _velocity; /** The volume of the note */   
+    
+    
     
     u_char  instrument;    /** The instrument */
     
@@ -48,6 +54,8 @@
 @property(nonatomic,assign) NSInteger   startTime;
 @property(nonatomic,assign) NSInteger   velocity;
 @property(nonatomic,assign) NSInteger   measureNumber;
+@property(nonatomic,retain) UIImageView *image;
+@property(nonatomic,assign) CGPoint     imageCenter;
 
 /*
 -(id)initWithPitchClass:(NSInteger)pitchClass
@@ -57,9 +65,15 @@
 
 
 -(id)initWithMidiEvent:(MidiEvent *)midiEvent; //Create MGNote from MidiEvent
+-(id)initWithPitchClass:(NSInteger)pitchClass;
+
+-(void)initImageWithValue:(NoteDuration)value; //Inits appropriate image
+
+-(void)displayAtPosition:(CGPoint)position;
+
 
 //Play an individual note (not a chord). Handles on/off
--(void)play:(HSTREAM)stream;
+//-(void)play:(HSTREAM)stream;
 
 //Sends on and off MIDI messages to BASS
 -(void)noteOn:(HSTREAM)stream; 

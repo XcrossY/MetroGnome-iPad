@@ -21,8 +21,12 @@
 @synthesize startTime       = _startTime;
 @synthesize velocity        = _velocity;
 @synthesize measureNumber   = _measureNumber;
+@synthesize image           = _image;
+@synthesize imageCenter     = _imagecenter;
+
 
 -(void)dealloc {
+    [self.image release];
     [super dealloc];
 }
 
@@ -67,24 +71,65 @@
     return self;
 }
 
+
+-(id)initWithPitchClass:(NSInteger)pitchClass {
+    if (self = [super init]) {
+        if (pitchClass < 0 || pitchClass >= PITCH_CLASS_TOTAL) {
+            NSLog(@"Attempted illegal pitch class");
+            return nil;
+        }
+        else {
+            self.pitchClass = pitchClass;
+        }
+    }
+    return self;
+}
+
+
+//Inits appropriate image
+-(void)initImageWithValue:(NoteDuration)value {
+    if (value == Whole) self.image = [[UIImageView alloc]initWithImage:[UIImage  imageNamed:@"WholeNote.png"]];
+    else if (value == DottedHalf) self.image = [[UIImageView alloc]initWithImage:[UIImage  imageNamed:@"DottedHalfNote.png"]];
+    else if (value == Half) self.image = [[UIImageView alloc]initWithImage:[UIImage  imageNamed:@"HalfNote.png"]];
+    else if (value == DottedQuarter) self.image = [[UIImageView alloc]initWithImage:[UIImage  imageNamed:@"DottedQuarterNote.png"]];
+    else if (value == Quarter) self.image = [[UIImageView alloc]initWithImage:[UIImage  imageNamed:@"QuarterNote.png"]];
+    else if (value == DottedEighth) self.image = [[UIImageView alloc]initWithImage:[UIImage  imageNamed:@"DottedEighthNote.png"]];
+    else if (value == Eighth) self.image = [[UIImageView alloc]initWithImage:[UIImage  imageNamed:@"EighthNOte.png"]];
+    else if (value == Triplet) self.image = [[UIImageView alloc]initWithImage:[UIImage  imageNamed:@"TripletNote.png"]];
+    else if (value == Sixteenth) self.image = [[UIImageView alloc]initWithImage:[UIImage  imageNamed:@"SixteenthNote.png"]];
+    else if (value == ThirtySecond) self.image = [[UIImageView alloc]initWithImage:[UIImage  imageNamed:@"ThirtySecondNote.png"]];
+    else NSLog(@"MGNote: attempted to init image of unsupported value");
+    
+}
+
+/** Initializes image of note and sets position */
+-(void)displayAtPosition:(CGPoint)position {
+
+    if (self.image == NULL) {
+        NSLog(@"MGNote: tried to display note w/out image");
+        return;
+    }
+    self.image.center = position; //Make specific to each image
+}
+
 //Plays a single note (not a chord)
--(void)play:(HSTREAM)stream {
+/*-(void)play:(HSTREAM)stream {
     if (self != nil) {
         [self noteOn:stream];
         NSDate * NoteOnTime = [NSDate date];
         [NSThread sleepForTimeInterval:self.duration];
         
-        /*[NSTimer scheduledTimerWithTimeInterval:1.0
+        //[NSTimer scheduledTimerWithTimeInterval:1.0
                                          target:self
                                        selector:@selector(noteOffTimer:)
                                        userInfo:nil
                                         repeats:NO];*/
-        [self noteOff:stream];
+        /*[self noteOff:stream];
         NSDate *NoteOffTime = [NSDate date];
         
         NSLog(@"Note length: %f",[NoteOffTime timeIntervalSinceDate:NoteOnTime]);
     }
-}
+}*/
 
  /*
 -(void)play:(HSTREAM)stream {

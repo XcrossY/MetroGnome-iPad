@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "MGPart.h"
 #import "MGTimeSignature.h"
+#import "MGKeySignature.h"
 #import "MidiFile.h"
 
 /* A part contains a string of notes/chords. It is a single instrument,
@@ -17,6 +18,7 @@
     NSString *_fileName;     /** The full Midi file path */
     NSMutableArray *_partsArray;   /** of MGParts */
     MGTimeSignature *_timeSignature;
+    MGKeySignature *_keySignature;
     u_short _trackMode;       /** 0 (single track), 1 (simultaneous tracks) 2 (independent tracks) */
     int _quarterNote;         /** The number of pulses per quarter note */
     int _totalPulses;         /** The total length of the song, in pulses */
@@ -24,7 +26,8 @@
 }
 @property(nonatomic,assign) NSString *fileName;
 @property(nonatomic,assign) NSMutableArray *partsArray;
-@property(nonatomic,assign) MGTimeSignature *timeSignature;
+@property(nonatomic,assign) MGTimeSignature *timeSignature; //assign?
+@property(nonatomic,retain) MGKeySignature *keySignature;
 @property(nonatomic,assign) u_short trackMode;
 @property(nonatomic,assign) int quarterNote; //redundant with time signature
 @property(nonatomic,assign) int totalPulses;
@@ -42,6 +45,7 @@
 
 /** Instance methods */
 -(int)totalMeasures; /** Returns total number of measures in the score */
+-(MGKeySignature *)findKeySignature; /** Calculates key signature */
 
 
 @end

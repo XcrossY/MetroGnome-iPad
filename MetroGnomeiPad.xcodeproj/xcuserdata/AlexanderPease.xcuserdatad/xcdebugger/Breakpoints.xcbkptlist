@@ -9,11 +9,25 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Classes/Views/MGSheetMusicView.h"
-         timestampString = "349568110.26604"
+         timestampString = "349591857.132195"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "27"
-         endingLineNumber = "27">
+         startingLineNumber = "40"
+         endingLineNumber = "40">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "Classes/Controllers/MGSheetMusicViewController.m"
+         timestampString = "349680368.862679"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "103"
+         endingLineNumber = "103"
+         landmarkName = "-displayAll"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

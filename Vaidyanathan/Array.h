@@ -45,6 +45,9 @@
 -(BOOL)contains:(int)x;
 -(int)count;
 -(void)sort;
+-(int)maximum;
+-(int)indexOfMaximum;
+-(int)totalValue;
 
 @end
 

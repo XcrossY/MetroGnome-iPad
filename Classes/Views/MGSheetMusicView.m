@@ -10,6 +10,7 @@
 #import "MGScore.h"
 #import "MGSingleStaffView.h"
 #import "MGBarLineView.h"
+#import "MGTimeSignature.h"
 
 #define STAFFHEIGHT 256
 //Amount of space between staves and edge of frame
@@ -49,13 +50,29 @@
 -(void)displayTimeSignature {
     for (int i = 0; i < [self.staves count]; i++) {
         [[self.staves objectAtIndex:i] displayTimeSignature];
-        [[self.staves objectAtIndex:i] displayTimeSignature];
     }
 }
 
 /** Displays sheet music with parameters defined in options */
--(void)displayWithOptions:(SheetMusicOptions)options {
-    NSLog(@"displayed");
+-(void)displayWithOptions:(MGOptions *)options {
+    if (options.displayAll && options.normalStaffSize) {
+        for (int i = 0; i < [self.staves count]; i++) {
+            MGSingleStaffView *staff = [self.staves objectAtIndex:i];
+            [staff displayRegular];
+            [self addSubview:staff];
+   
+        }
+        
+        /*
+        MGSingleStaffView *staff = [self.staves objectAtIndex:0];
+        staff.frame = CGRectMake(STAFFBORDERX, STAFFBORDERY, 100, STAFFHEIGHT);
+        [self addSubview:staff];*/
+        
+        /** Init each notes image */
+        //NoteDuration noteValue = [options.timeSignature getNoteDuration:currentNote.duration];
+        //[currentNote initImageWithValue:noteValue];
+        
+    }
 }
 
 
